@@ -407,45 +407,69 @@ import os
 import json
 
 path = os.getcwd().replace('\\', '//')
-json_decode = json.load(open( path + "//Outputs-Template.json", encoding='utf-8'))
+json_decode = json.load(open( path + "//inputs//input-template.json", encoding='utf-8'))
 
 ignore = ('.json', '.png', '.svg', '.mp3', '.mp4')
 result = []
-#rows = json_decode[0]
+excluded_types = ('nested_properties', 'template', 'image', 'audio', 'video', 'animated_section', 'display_group', 'lottie_animation')
+
+def process_rows(val, result):
+    result_item = {}
+    for item in val:
+        # This was needed because item.get() gives an error if items isn't a list.
+        if not isinstance(item, str):
+            if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
+                value_string = str(item.get('value'))
+                value_type = str(item.get('type'))
+                # TODO Better way to exclude items in lst
+                if not value_string in lst:
+                    if not value_string.endswith(ignore) and not value_string.startswith('https') and (not value_string == 'true') and \
+                        not value_type in excluded_types and \
+                            value_string != 'None' and not str(item['value']).isnumeric() and \
+                                not value_string.startswith('_stepper') and not value_string.startswith('_text') and \
+                                    not value_string.startswith('.audio') and not value_string.startswith('.text'):
+                        result_item['SourceText'] = item.get('value')
+                        result.append(result_item)
+            if 'rows' in str(item.get('rows')):
+                process_rows(item, result)
+            
+
 for i in range(0, len(json_decode)):
     val = json_decode[i]['rows']
-    for item in val:
-        #print(item.get('exclude_from_translation'))
-        my_dict={}
-        if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
-            if not str(item.get('value')) in lst:
-                if not str(item.get('value')).endswith(ignore) and not str(item.get('value')).startswith('https') and (not str(item.get('value')) == 'true') and str(item.get('value')) != 'None' and not str(item['value']).isnumeric() and str(item.get('type')) != 'template' and str(item.get('value')) != 'nested_properties' and not str(item.get('value')).startswith('_stepper') and not str(item.get('value')).startswith('_text') and not str(item.get('value')).startswith('.audio') and not str(item.get('value')).startswith('.text'):
-                    my_dict['SourceText']=item.get('value')
-        if 'rows' in str(item.get('rows')):
-            for it in item['rows']:
-                dict1 = {}
-                if not 'exclude_from_translation' in it or not bool(it.get('exclude_from_translation')) == True:
-                    if not str(it.get('value')) in lst:
-                        if not str(it.get('value')).endswith(ignore) and not str(it.get('value')).startswith('https') and not str(it.get('value')) == 'true' and str(it.get('value')) != 'None' and not str(it['value']).isnumeric() and str(it.get('type')) != 'template' and str(it.get('value')) != 'nested_properties' and not str(it.get('value')).startswith('_stepper') and not str(it.get('value')).startswith('_text') and not str(it.get('value')).startswith('.audio') and not str(it.get('value')).startswith('.text'):
-                            dict1['SourceText']=it.get('value')
-                        result.append(dict1)
-                        if 'rows' in str(it):
-                            for itm in it['rows']:
-                                dict2 = {}
-                                if not 'exclude_from_translation' in itm or not bool(itm.get('exclude_from_translation')) == True:
-                                    if not str(itm.get('value')) in lst:
-                                        if not str(itm.get('value')).endswith(ignore) and not str(itm.get('value')).startswith('https') and not str(itm.get('value')).endswith('.mp3') and not str(itm.get('value')) == 'true' and str(itm.get('value')) != 'None' and not str(itm['value']).isnumeric() and str(itm.get('type')) != 'template' and str(itm.get('value')) != 'nested_properties' and not str(itm.get('value')).startswith('_stepper') and not str(itm.get('value')).startswith('_text') and not str(itm.get('value')).startswith('.audio') and not str(itm.get('value')).startswith('.text'):
-                                            dict2['SourceText']=itm.get('value')
-                                        result.append(dict2)
-                                        if 'rows' in str(itm):
-                                            for itms in itm['rows']:
-                                                dict3 = {}
-                                                if not 'exclude_from_translation' in itms or not bool(itms.get('exclude_from_translation')) == True:
-                                                    if  not str(itms.get('value')) in lst:
-                                                        if not str(itms.get('value')).endswith(ignore) and not str(itms.get('value')).startswith('https') and not str(itms.get('exclude_from_translation')) == 'true' and not str(itms.get('value')) == 'true' and str(itms.get('value')) != 'None' and not str(itms['value']).isnumeric() and str(itms.get('type')) != 'template' and str(itms.get('value')) != 'nested_properties' and not str(itms.get('value')).startswith('_stepper') and not str(itms.get('value')).startswith('_text') and not str(itms.get('value')).startswith('.audio') and not str(itms.get('value')).startswith('.text'):
-                                                            dict3['SourceText']=itms.get('value')
-                                                        result.append(dict3)
-        result.append(my_dict)
+    process_rows(val, result)
+
+    # for item in val:
+    #     #print(item.get('exclude_from_translation'))
+    #     my_dict={}
+    #     if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
+    #         if not str(item.get('value')) in lst:
+    #             if not str(item.get('value')).endswith(ignore) and not str(item.get('value')).startswith('https') and (not str(item.get('value')) == 'true') and str(item.get('value')) != 'None' and not str(item['value']).isnumeric() and str(item.get('type')) != 'template' and str(item.get('value')) != 'nested_properties' and not str(item.get('value')).startswith('_stepper') and not str(item.get('value')).startswith('_text') and not str(item.get('value')).startswith('.audio') and not str(item.get('value')).startswith('.text'):
+    #                 my_dict['SourceText']=item.get('value')
+    #     if 'rows' in str(item.get('rows')):
+    #         for it in item['rows']:
+    #             dict1 = {}
+    #             if not 'exclude_from_translation' in it or not bool(it.get('exclude_from_translation')) == True:
+    #                 if not str(it.get('value')) in lst:
+    #                     if not str(it.get('value')).endswith(ignore) and not str(it.get('value')).startswith('https') and not str(it.get('value')) == 'true' and str(it.get('value')) != 'None' and not str(it['value']).isnumeric() and str(it.get('type')) != 'template' and str(it.get('value')) != 'nested_properties' and not str(it.get('value')).startswith('_stepper') and not str(it.get('value')).startswith('_text') and not str(it.get('value')).startswith('.audio') and not str(it.get('value')).startswith('.text'):
+    #                         dict1['SourceText']=it.get('value')
+    #                     result.append(dict1)
+    #                     if 'rows' in str(it):
+    #                         for itm in it['rows']:
+    #                             dict2 = {}
+    #                             if not 'exclude_from_translation' in itm or not bool(itm.get('exclude_from_translation')) == True:
+    #                                 if not str(itm.get('value')) in lst:
+    #                                     if not str(itm.get('value')).endswith(ignore) and not str(itm.get('value')).startswith('https') and not str(itm.get('value')).endswith('.mp3') and not str(itm.get('value')) == 'true' and str(itm.get('value')) != 'None' and not str(itm['value']).isnumeric() and str(itm.get('type')) != 'template' and str(itm.get('value')) != 'nested_properties' and not str(itm.get('value')).startswith('_stepper') and not str(itm.get('value')).startswith('_text') and not str(itm.get('value')).startswith('.audio') and not str(itm.get('value')).startswith('.text'):
+    #                                         dict2['SourceText']=itm.get('value')
+    #                                     result.append(dict2)
+    #                                     if 'rows' in str(itm):
+    #                                         for itms in itm['rows']:
+    #                                             dict3 = {}
+    #                                             if not 'exclude_from_translation' in itms or not bool(itms.get('exclude_from_translation')) == True:
+    #                                                 if  not str(itms.get('value')) in lst:
+    #                                                     if not str(itms.get('value')).endswith(ignore) and not str(itms.get('value')).startswith('https') and not str(itms.get('exclude_from_translation')) == 'true' and not str(itms.get('value')) == 'true' and str(itms.get('value')) != 'None' and not str(itms['value']).isnumeric() and str(itms.get('type')) != 'template' and str(itms.get('value')) != 'nested_properties' and not str(itms.get('value')).startswith('_stepper') and not str(itms.get('value')).startswith('_text') and not str(itms.get('value')).startswith('.audio') and not str(itms.get('value')).startswith('.text'):
+    #                                                         dict3['SourceText']=itms.get('value')
+    #                                                     result.append(dict3)
+    #    result.append(my_dict)
 
 #--------------------------------------------------------------------------------------
 
