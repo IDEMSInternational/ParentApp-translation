@@ -85,37 +85,51 @@ def add_to_result(value_string, matched_expressions, result, source_type):
             result_item['note'] = note_text
         result.append(result_item)
 
-
+result_glob = []
+result_temp = []
 def set_source_type(source_type, result):
     if source_type == 'template':
         for i in range(0, len(json_decode_template)):
             val = json_decode_template[i]['rows']
-            source_type=source_type
+            source_type = source_type
             process_rows(val, result, source_type)
     elif source_type == 'global':
         for i in range(0, len(json_decode_global)):
             val = json_decode_global[i]['rows']
-            source_type =source_type
+            source_type = source_type
             process_rows(val, result, source_type)
 #---------------------------------------------------------------------------------------
 template_src = 'template'
 global_src = 'global'
-set_source_type(template_src, result)
-#set_source_type(global_src, result)
+set_source_type(template_src, result_temp)
+set_source_type(global_src, result_glob)
 # --------------------------------------------------------------------------------------
+# Result from Template file
+print(len(result_temp))
+result_temp = list(filter(({}).__ne__, result_temp))
+print(len(result_temp))
+result_temp = [i for n, i in enumerate(result_temp) if i not in result_temp[n + 1:]]
+print(len(result_temp))
 
-print(len(result))
-result = list(filter(({}).__ne__, result))
-print(len(result))
-result = [i for n, i in enumerate(result) if i not in result[n + 1:]]
-print(len(result))
-
+# Result from Global file
+print(len(result_glob))
+result_glob = list(filter(({}).__ne__, result_glob))
+print(len(result_glob))
+result_glob = [i for n, i in enumerate(result_glob) if i not in result_glob[n + 1:]]
+print(len(result_glob))
 # ---------------------------------------------------------------------------------------
 
-with open(path + '//Outputs//output_global.json', 'w', encoding='utf-8') as json_file:
-    json.dump(result, json_file, ensure_ascii=False)
+with open(path + '//Outputs//output_template.json', 'w', encoding='utf-8') as json_file:
+    json.dump(result_glob, json_file, ensure_ascii=False)
 
-# ----------------------------
-res = [d['text'] for d in result if 'text' in d]
+with open(path + '//Outputs//output_global.json', 'w', encoding='utf-8') as json_file:
+    json.dump(result_glob, json_file, ensure_ascii=False)
+
+# ----------------------------------------------------------------------------------------
+res = [d['text'] for d in result_temp if 'text' in d]
 print('Number of characters for translation in template.json: ', sum(len(str(i)) for i in res))
 print('Number of words for translation in template.json: ', sum(len(str(i).split()) for i in res))
+print('----------------------------------------------------------')
+res = [d['text'] for d in result_glob if 'text' in d]
+print('Number of characters for translation in global.json: ', sum(len(str(i)) for i in res))
+print('Number of words for translation in global.json: ', sum(len(str(i).split()) for i in res))
