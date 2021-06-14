@@ -17,102 +17,122 @@
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_relax",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_relax",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_treat_yourself",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_treat_yourself",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_praise_yourself",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_praise_yourself",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_spend_time",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_spend_time",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_praise_teen",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_praise_teen",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_instruct_positively",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_instruct_positively",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_breathe",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_breathe",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_money",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_money",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_consequence",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_consequence",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "weekly_parent_point_safe",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "total_parent_point_safe",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/habit_globals.xlsx"
@@ -481,17 +501,20 @@
         {
           "type": "declare_field_default",
           "name": "workshops_setup",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "no_mail",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "daily_relax_done",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/navigation_globals.xlsx"
@@ -665,62 +688,74 @@
         {
           "type": "declare_field_default",
           "name": "w_self_care_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_tools_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/parent_centre_globals.xlsx"
@@ -753,7 +788,8 @@
         {
           "type": "declare_field_default",
           "name": "which_relax",
-          "value": "relax_1"
+          "value": "relax_1",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
@@ -773,72 +809,86 @@
         {
           "type": "declare_field_default",
           "name": "relax_1_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_2_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_3_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_4_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_5_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_6_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_7_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_8_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_9_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_10_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_11_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_12_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_13_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "relax_14_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/parent_centre_globals.xlsx"
@@ -871,7 +921,8 @@
         {
           "type": "declare_field_default",
           "name": "which_activity",
-          "value": "co_chef"
+          "value": "co_chef",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
@@ -886,127 +937,152 @@
         {
           "type": "declare_field_default",
           "name": "activity_reflect_positive_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_check_in_chat_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_dream_travel_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_famous_party_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_two_truths_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_time_machine_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_superpowers_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_friendly_chat_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_interrupter_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_three_options_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_yes_no_maybe_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_memory_game_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_invent_story_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_co_chef_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_dance_moves_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_mirror_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_praise_time_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_whats_new_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_get_active_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_name_that_tune_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_pass_the_snap_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_family_workout_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_housework_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_doing_what_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "activity_crazy_chicken_favourite",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/parent_centre_globals.xlsx"
@@ -1268,7 +1344,8 @@
         {
           "type": "declare_field_default",
           "name": "survey_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
@@ -1291,47 +1368,56 @@
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_1",
-          "value": 4
+          "value": 4,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_2",
-          "value": 5
+          "value": 5,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_3",
-          "value": 2
+          "value": 2,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_4",
-          "value": 2
+          "value": 2,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_5",
-          "value": 1
+          "value": 1,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_6",
-          "value": 1
+          "value": 1,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_7",
-          "value": 7
+          "value": 7,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_8",
-          "value": 5
+          "value": 5,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
           "name": "survey_welcome_t_9",
-          "value": 7
+          "value": 7,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/survey_globals.xlsx"
@@ -1500,362 +1586,434 @@
         {
           "type": "declare_field_default",
           "name": "w_self_care_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_completion_level",
-          "value": 0
+          "value": 0,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_self_care_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_completion_status",
-          "value": "uncompleted"
+          "value": "uncompleted",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_self_care_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_started",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_self_care_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_self_care_disabled",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_disabled",
-          "value": true
+          "value": true,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_self_care_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_1on1_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_praise_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_instruct_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_stress_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_money_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_rules_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_consequence_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_solve_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_safe_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_crisis_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
           "name": "w_celebrate_hp_review_completed",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         }
       ],
       "_xlsxPath": "plh_sheets_beta/plh_templating/data/workshop_globals.xlsx"
@@ -1868,7 +2026,8 @@
         {
           "type": "declare_field_default",
           "name": "do_workshops_together",
-          "value": false
+          "value": false,
+          "exclude_from_translation": true
         },
         {
           "type": "declare_global_constant",
@@ -1883,7 +2042,8 @@
         {
           "type": "declare_field_default",
           "name": "guide_number",
-          "value": "guide_2"
+          "value": "guide_2",
+          "exclude_from_translation": true
         },
         {
           "type": "declare_field_default",
