@@ -64,22 +64,19 @@ def process_rows(val, result, filename):
                     process_rows(item.get('rows'), result, filename)
         else:
             if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
-                if 'title' in item:
-                    item_value_title = item.get('title')
-                if 'message_text' in item:
-                    item_value_message = item.get('message_text')
                 value_type = str(item.get('type'))
-                if not value_type in excluded_types:
-                    if isinstance(item_value_title, str) and isinstance(item_value_message, str):
-                        value_title_string = str(item_value_title).strip()
-                        value_message_string = str(item_value_message).strip()
-                        matched_expressions=[]
-                        get_matched_text(value_title_string, matched_expressions)
-                        get_matched_text(value_message_string, matched_expressions)
-                        res1 = add_to_result(value_title_string, matched_expressions, result, filename)
-                        res2 = add_to_result(value_message_string, matched_expressions, result, filename)
-                        result.append(res1)
-                        result.append(res2)                              
+                if 'title' in item and not value_type in excluded_types:
+                    item_value_title = item.get('title')
+                    value_title_string = str(item_value_title).strip()
+                    matched_expressions=[]
+                    get_matched_text(value_title_string, matched_expressions)
+                    result.append(add_to_result(value_title_string, matched_expressions, result, filename))
+                if 'message_text' in item and not value_type in excluded_types:
+                    item_value_message = item.get('message_text')
+                    value_message_string = str(item_value_message).strip()
+                    matched_expressions=[]
+                    get_matched_text(value_message_string, matched_expressions)
+                    result.append(add_to_result(value_message_string, matched_expressions, result, filename))                            
 
 def add_to_result(value_string, matched_expressions, result, filename):
     if not value_string.endswith(ignore_end) and \
