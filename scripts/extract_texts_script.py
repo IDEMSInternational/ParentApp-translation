@@ -3,23 +3,27 @@ import os
 
 path = os.getcwd().replace('\\', '//')
 json_decode_template = json.load(
-    open(path + "//inputs//input_template.json", encoding='utf-8'))
+    open(path + "//Inputs//input_template.json", encoding='utf-8'))
 json_decode_global = json.load(
     open(path + "//inputs//input_global.json", encoding='utf-8'))
 json_decode_tour = json.load(
-    open(path + "//inputs//input_tour.json", encoding='utf-8'))
+    open(path + "//Inputs//input_tour.json", encoding='utf-8'))
+
+json_decode_data_list = json.load(
+    open(path + "//Inputs//input_data_list.json", encoding='utf-8'))
 
 ignore_end = ('.json', '.png', '.svg', '.mp3', '.mp4')
 ignore_start = ('https', '@', 'plh_')
 result = []
 excluded_types = ('nested_properties', 'template', 'image', 'audio', 'video', 'animated_section',
                   'display_group', 'lottie_animation')
+contain_key = ('title', 'text', 'in_text_title', 'short_title', 'tools')
 end_variable_characters = (' ', ':', ';', ',', '!', '?', '@')
 
 
 def process_rows(val, result, filename):
     for item in val:
-        if filename != 'tour':                
+        if filename == 'template' or filename == 'global':                
             if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
                 item_value = item.get('value')
                 value_type = str(item.get('type'))
@@ -62,6 +66,16 @@ def process_rows(val, result, filename):
                                 print("Unexpected list element" + str(list_item))
                 if item.get('rows')!=None :
                     process_rows(item.get('rows'), result, filename)
+        elif filename == 'data_list':
+            if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
+                if item.get('_translatedFields') != None:
+                    for elt in contain_key:
+                        if str(elt) in item.get('_translatedFields'):
+                            value_string = str(item.get('_translatedFields').get(str(elt)).get('eng')).strip()
+                            #print(value_string, 'Ok', elt)
+                            matched_expressions = []
+                            get_matched_text(value_string, matched_expressions)
+                            result.append(add_to_result(value_string, matched_expressions, result, filename))
         else:
             if not 'exclude_from_translation' in item or not bool(item.get('exclude_from_translation')) == True:
                 value_type = str(item.get('type'))
@@ -109,6 +123,7 @@ def get_matched_text(value_string, matched_expressions):
 result_glob = []
 result_temp = []
 result_tour = []
+result_data_list = []
 def set_filename(filename, result):
     if filename == 'template':
         for i in range(0, len(json_decode_template)):
@@ -125,13 +140,20 @@ def set_filename(filename, result):
             val = json_decode_tour[i]['rows']
             filename = filename
             process_rows(val, result, filename)
+    elif filename == 'data_list':
+        for i in range(0, len(json_decode_data_list)):
+            val = json_decode_data_list[i]['rows']
+            filename = filename
+            process_rows(val, result, filename)
 #---------------------------------------------------------------------------------------
 template_src = 'template'
 global_src = 'global'
 tour_src = 'tour'
+data_list_src = 'data_list'
 set_filename(template_src, result_temp)
 set_filename(global_src, result_glob)
 set_filename(tour_src, result_tour)
+set_filename(data_list_src, result_data_list)
 # --------------------------------------------------------------------------------------
 # Result from Template file
 print(len(result_temp))
@@ -148,13 +170,20 @@ result_glob = [i for n, i in enumerate(result_glob) if i not in result_glob[n + 
 print(len(result_glob))
 # ---------------------------------------------------------------------------------------
 
-# Result from Global file
+# Result from Tour file
 # print(len(result_tour))
 # result_tour = list(filter(({}).__ne__, result_tour))
 # print(len(result_tour))
 result_tour = [i for i in result_tour if i]
 result_tour = [i for n, i in enumerate(result_tour) if i not in result_tour[n + 1:]]
 print(len(result_tour))
+# ---------------------------------------------------------------------------------------
+
+# Result from Data list file
+#print(len(result_data_list))
+result_data_list = [i for i in result_data_list if i]
+result_data_list = [i for n, i in enumerate(result_data_list) if i not in result_data_list[n + 1:]]
+print(len(result_data_list))
 # ---------------------------------------------------------------------------------------
 
 with open(path + '//Outputs//output_template.json', 'w', encoding='utf-8') as json_file:
@@ -166,6 +195,8 @@ with open(path + '//Outputs//output_global.json', 'w', encoding='utf-8') as json
 with open(path + '//Outputs//output_tour.json', 'w', encoding='utf-8') as json_file:
     json.dump(result_tour, json_file, ensure_ascii=False)
 
+with open(path + '//Outputs//output_data_list.json', 'w', encoding='utf-8') as json_file:
+    json.dump(result_data_list, json_file, ensure_ascii=False)
 # ----------------------------------------------------------------------------------------
 reslt_temp = [d['text'] for d in result_temp if 'text' in d]
 print('Number of characters for translation in template.json: ', sum(len(str(i)) for i in reslt_temp))
@@ -179,11 +210,14 @@ reslt_tour = [d['text'] for d in result_tour if 'text' in d]
 print('Number of characters for translation in tour.json: ', sum(len(str(i)) for i in reslt_tour))
 print('Number of words for translation in tour.json: ', sum(len(str(i).split()) for i in reslt_tour))
 print('----------------------------------------------------------')
+reslt_data = [d['text'] for d in result_data_list if 'text' in d]
+print('Number of characters for translation in data_list.json: ', sum(len(str(i)) for i in reslt_data))
+print('Number of words for translation in data_list.json: ', sum(len(str(i).split()) for i in reslt_data))
+print('----------------------------------------------------------')
 # Result from all files
-result_all = result_temp + result_glob + result_tour
+result_all = result_temp + result_glob + result_tour + reslt_data
 print(len(result_all))
-result_all = list(filter(({}).__ne__, result_all))
-print(len(result_all))
+print('---------------------------------------')
 result_all = [i for n, i in enumerate(result_all) if i not in result_all[n + 1:]]
 print(len(result_all))
 
