@@ -187,7 +187,7 @@ print(len(result_data_list))
 # ---------------------------------------------------------------------------------------
 
 with open(path + '//Outputs//output_template.json', 'w', encoding='utf-8') as json_file:
-    json.dump(result_glob, json_file, ensure_ascii=False)
+    json.dump(result_temp, json_file, ensure_ascii=False)
 
 with open(path + '//Outputs//output_global.json', 'w', encoding='utf-8') as json_file:
     json.dump(result_glob, json_file, ensure_ascii=False)
@@ -215,11 +215,10 @@ print('Number of characters for translation in data_list.json: ', sum(len(str(i)
 print('Number of words for translation in data_list.json: ', sum(len(str(i).split()) for i in reslt_data))
 print('----------------------------------------------------------')
 # Result from all files
-result_all = result_temp + result_glob + result_tour + reslt_data
-print(len(result_all))
-print('---------------------------------------')
+result_all = result_temp + result_glob + result_tour + result_data_list
+#print(len(result_all))
 result_all = [i for n, i in enumerate(result_all) if i not in result_all[n + 1:]]
-print(len(result_all))
+#print(len(result_all))
 
 with open(path + '//Outputs//output.json', 'w', encoding='utf-8') as json_file:
     json.dump(result_all, json_file, ensure_ascii=False)
