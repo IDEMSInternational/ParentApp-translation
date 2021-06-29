@@ -33,31 +33,29 @@
         "note": "The following strings should not be translated: \n     @fields.this_workshop\n     @fields.this_workshop\n     @global.parent_centre"
     },
     {
-        "SourceText": "Name: @fields.user_name",
-        "text": "Name: @fields.user_name",
-        "type": "template",
-        "note": "The string @fields.user_name should not be translated."
-    },
-    {
-        "SourceText": "Select a day to practice",
-        "text": "Select a day to practice",
+        "SourceText": "My name",
+        "text": "My name",
         "type": "template"
     },
     {
-        "SourceText": "Current Workshop",
-        "text": "Current Workshop",
+        "SourceText": "Day to do the workshops",
+        "text": "Day to do the workshops",
         "type": "template"
     },
     {
-        "SourceText": "Select Number of People",
-        "text": "Select Number of People",
+        "SourceText": "Current workshop",
+        "text": "Current workshop",
         "type": "template"
     },
     {
-        "SourceText": "Group Name: @fields.group_name",
-        "text": "Group Name: @fields.group_name",
-        "type": "template",
-        "note": "The string @fields.group_name should not be translated."
+        "SourceText": "I will do the workshops...",
+        "text": "I will do the workshops...",
+        "type": "template"
+    },
+    {
+        "SourceText": "My group's name",
+        "text": "My group's name",
+        "type": "template"
     },
     {
         "SourceText": "Are you sure you want to unlock all the workshops? Once you do this you will not be able to lock them back",
@@ -70,18 +68,33 @@
         "type": "template"
     },
     {
-        "SourceText": "My Tips",
-        "text": "My Tips",
-        "type": "template"
-    },
-    {
         "SourceText": "You will find tips that we think you may find useful here, based on your answers to the app customisation.",
         "text": "You will find tips that we think you may find useful here, based on your answers to the app customisation.",
         "type": "template"
     },
     {
+        "SourceText": "WHO Website",
+        "text": "WHO Website",
+        "type": "template"
+    },
+    {
+        "SourceText": "UNICEF Website",
+        "text": "UNICEF Website",
+        "type": "template"
+    },
+    {
         "SourceText": "Parenting during COVID is hard. Be proud of yourself for making it this far.\n\nWe are working on new content here to support you with talking to your teens and children about COVID.\n\nThe most up to date information on COVID-19 can be found on the WHO and UNICEF websites:",
         "text": "Parenting during COVID is hard. Be proud of yourself for making it this far.\n\nWe are working on new content here to support you with talking to your teens and children about COVID.\n\nThe most up to date information on COVID-19 can be found on the WHO and UNICEF websites:",
+        "type": "template"
+    },
+    {
+        "SourceText": "This button will take you to the Coronavirus of the official WHO website. \n\nThe URL is https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+        "text": "This button will take you to the Coronavirus of the official WHO website. \n\nThe URL is https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+        "type": "template"
+    },
+    {
+        "SourceText": "This button will take you to the Coronavirus of the official UNICEF website. \n\nThe URL is https://www.unicef.org/coronavirus/covid-19",
+        "text": "This button will take you to the Coronavirus of the official UNICEF website. \n\nThe URL is https://www.unicef.org/coronavirus/covid-19",
         "type": "template"
     },
     {
@@ -126,11 +139,6 @@
         "type": "template"
     },
     {
-        "SourceText": "Contact me via email",
-        "text": "Contact me via email",
-        "type": "template"
-    },
-    {
         "SourceText": "Type your phone number",
         "text": "Type your phone number",
         "type": "template"
@@ -143,6 +151,16 @@
     {
         "SourceText": "Tell us about your issue",
         "text": "Tell us about your issue",
+        "type": "template"
+    },
+    {
+        "SourceText": "The first time my mother asked me if I wanted to spend time with her, I told her to leave me alone because I was in the middle of a game. But she insisted like she always does. I said she could watch me playing if that's what she wanted. After a few minutes she started asking me questions about the game. It was annoying at the beginning, but after a while I was happy that she was finally interested in what I was doing. She even gave it a try!",
+        "text": "The first time my mother asked me if I wanted to spend time with her, I told her to leave me alone because I was in the middle of a game. But she insisted like she always does. I said she could watch me playing if that's what she wanted. After a few minutes she started asking me questions about the game. It was annoying at the beginning, but after a while I was happy that she was finally interested in what I was doing. She even gave it a try!",
+        "type": "template"
+    },
+    {
+        "SourceText": "My father told me I’m playing too much basketball after school, so we must set a family rule. He promised we'll think about a solution together, so we both feel good about it. I didn't believe it's possible but said, “OK, let's try”. We negotiated and agreed that the rule will be playing basketball is allowed after doing homework and until family dinner. It is hard for me to see my friends playing after school, so I'm doing my best to finish homework first and join them. I also have now the whole evening to do other things I want after the family dinner like watching basketball in the NBA.",
+        "text": "My father told me I’m playing too much basketball after school, so we must set a family rule. He promised we'll think about a solution together, so we both feel good about it. I didn't believe it's possible but said, “OK, let's try”. We negotiated and agreed that the rule will be playing basketball is allowed after doing homework and until family dinner. It is hard for me to see my friends playing after school, so I'm doing my best to finish homework first and join them. I also have now the whole evening to do other things I want after the family dinner like watching basketball in the NBA.",
         "type": "template"
     },
     {
@@ -163,16 +181,15 @@
         "note": "The string @local.habit should not be translated."
     },
     {
-        "SourceText": "+@fields.@local.total_habit_count",
-        "text": "+@fields.@local.total_habit_count",
-        "type": "template",
-        "note": "The string @local.total_habit_count should not be translated."
-    },
-    {
         "SourceText": "Add this activity to @global.my_activities",
         "text": "Add this activity to @global.my_activities",
         "type": "template",
         "note": "The string @global.my_activities should not be translated."
+    },
+    {
+        "SourceText": "Relaxation activities",
+        "text": "Relaxation activities",
+        "type": "template"
     },
     {
         "SourceText": "Something fun to do with your teen",
@@ -190,11 +207,6 @@
         "text": "You have not added any activities to @global.my_activities yet. Why don't you choose some?",
         "type": "template",
         "note": "The string @global.my_activities should not be translated."
-    },
-    {
-        "SourceText": "days in the past week",
-        "text": "days in the past week",
-        "type": "template"
     },
     {
         "SourceText": "Text",
@@ -219,11 +231,6 @@
         "note": "The string @local.threshold should not be translated."
     },
     {
-        "SourceText": "You selected 0",
-        "text": "You selected 0",
-        "type": "template"
-    },
-    {
         "SourceText": "First",
         "text": "First",
         "type": "template"
@@ -244,36 +251,9 @@
         "type": "template"
     },
     {
-        "SourceText": "Click and type",
-        "text": "Click and type",
-        "type": "template"
-    },
-    {
-        "SourceText": "Click and choose",
-        "text": "Click and choose",
-        "type": "template"
-    },
-    {
-        "SourceText": "Type your own",
-        "text": "Type your own",
-        "type": "template"
-    },
-    {
-        "SourceText": "You selected @local.combo_box",
-        "text": "You selected @local.combo_box",
-        "type": "template",
-        "note": "The string @local.combo_box should not be translated."
-    },
-    {
         "SourceText": "Days in the past month",
         "text": "Days in the past month",
         "type": "template"
-    },
-    {
-        "SourceText": "Unlock for greater than or equal to @local.threshold",
-        "text": "Unlock for greater than or equal to @local.threshold",
-        "type": "template",
-        "note": "The string @local.threshold should not be translated."
     },
     {
         "SourceText": "Days in the past week",
@@ -378,6 +358,24 @@
         "type": "template"
     },
     {
+        "SourceText": "\"@local.choice_1\" was helpful because...",
+        "text": "\"@local.choice_1\" was helpful because...",
+        "type": "template",
+        "note": "The string @local.choice_1 should not be translated."
+    },
+    {
+        "SourceText": "\"@local.choice_2\" was helpful because...",
+        "text": "\"@local.choice_2\" was helpful because...",
+        "type": "template",
+        "note": "The string @local.choice_2 should not be translated."
+    },
+    {
+        "SourceText": "\"@local.choice_3\" was helpful because...",
+        "text": "\"@local.choice_3\" was helpful because...",
+        "type": "template",
+        "note": "The string @local.choice_3 should not be translated."
+    },
+    {
         "SourceText": "Having a specific time to do this helps me to remember.",
         "text": "Having a specific time to do this helps me to remember.",
         "type": "template"
@@ -453,6 +451,16 @@
         "type": "template"
     },
     {
+        "SourceText": "Did you have any challenges when trying to spend time with your teen?",
+        "text": "Did you have any challenges when trying to spend time with your teen?",
+        "type": "template"
+    },
+    {
+        "SourceText": "What challenge did you have when trying to spend time with your teen?",
+        "text": "What challenge did you have when trying to spend time with your teen?",
+        "type": "template"
+    },
+    {
         "SourceText": "I don’t have enough time.",
         "text": "I don’t have enough time.",
         "type": "template"
@@ -503,36 +511,6 @@
         "type": "template"
     },
     {
-        "SourceText": "Sorry that you had that challenge. Children often want to spend time watching T.V. or playing with a gadget. Well done for being patient with your teen!",
-        "text": "Sorry that you had that challenge. Children often want to spend time watching T.V. or playing with a gadget. Well done for being patient with your teen!",
-        "type": "template"
-    },
-    {
-        "SourceText": "You are not alone here. Many parents sometimes have this challenge, too. One-on-one time should always be safe, and it does not have to cost a thing!",
-        "text": "You are not alone here. Many parents sometimes have this challenge, too. One-on-one time should always be safe, and it does not have to cost a thing!",
-        "type": "template"
-    },
-    {
-        "SourceText": "Sorry to hear this. Our teens may be disappointed if we cannot do what they want to do, like playing sports or doing other physically demanding activities. But remember, what is most important is that we spend time with them. That looks different for everyone!",
-        "text": "Sorry to hear this. Our teens may be disappointed if we cannot do what they want to do, like playing sports or doing other physically demanding activities. But remember, what is most important is that we spend time with them. That looks different for everyone!",
-        "type": "template"
-    },
-    {
-        "SourceText": "This sometimes happens! Competitive games can be challenging for teens (and adults!) if they have difficulty with losing.",
-        "text": "This sometimes happens! Competitive games can be challenging for teens (and adults!) if they have difficulty with losing.",
-        "type": "template"
-    },
-    {
-        "SourceText": "Yes, the end of one-on-one time can sometimes be difficult.",
-        "text": "Yes, the end of one-on-one time can sometimes be difficult.",
-        "type": "template"
-    },
-    {
-        "SourceText": "Many parents face this. It can be difficult to spend one-on-one time with our teens when we have more than one child.",
-        "text": "Many parents face this. It can be difficult to spend one-on-one time with our teens when we have more than one child.",
-        "type": "template"
-    },
-    {
         "SourceText": "Think of a time when my teen is more open to me, like in the morning or right before bedtime.",
         "text": "Think of a time when my teen is more open to me, like in the morning or right before bedtime.",
         "type": "template"
@@ -560,6 +538,11 @@
     {
         "SourceText": "Perfect! Sometimes it can be easier to start with spending time with the whole family. That way your teen can get more comfortable with spending one-on-one time with you over time.",
         "text": "Perfect! Sometimes it can be easier to start with spending time with the whole family. That way your teen can get more comfortable with spending one-on-one time with you over time.",
+        "type": "template"
+    },
+    {
+        "SourceText": "Sorry that you had that challenge. Children often want to spend time watching T.V. or playing with a gadget. Well done for being patient with your teen!",
+        "text": "Sorry that you had that challenge. Children often want to spend time watching T.V. or playing with a gadget. Well done for being patient with your teen!",
         "type": "template"
     },
     {
@@ -593,6 +576,11 @@
         "type": "template"
     },
     {
+        "SourceText": "You are not alone here. Many parents sometimes have this challenge, too. One-on-one time should always be safe, and it does not have to cost a thing!",
+        "text": "You are not alone here. Many parents sometimes have this challenge, too. One-on-one time should always be safe, and it does not have to cost a thing!",
+        "type": "template"
+    },
+    {
         "SourceText": "Explain to my teen why their suggestion is not safe or possible and ask them for other ideas.",
         "text": "Explain to my teen why their suggestion is not safe or possible and ask them for other ideas.",
         "type": "template"
@@ -608,10 +596,15 @@
         "type": "template"
     },
     {
-        "SourceText": "This is perfect! If you need any inspiration, you can find suggestions for activities in your @global.parent_centre . Remember, let your teen choose the activity!",
-        "text": "This is perfect! If you need any inspiration, you can find suggestions for activities in your @global.parent_centre . Remember, let your teen choose the activity!",
+        "SourceText": "This is perfect! If you need any inspiration, you can find suggestions for activities @data.parent_centre.relax_and_activities.location_text . Remember, let your teen choose the activity!",
+        "text": "This is perfect! If you need any inspiration, you can find suggestions for activities @data.parent_centre.relax_and_activities.location_text . Remember, let your teen choose the activity!",
         "type": "template",
-        "note": "The string @global.parent_centre should not be translated."
+        "note": "The string @data.parent_centre.relax_and_activities.location_text should not be translated."
+    },
+    {
+        "SourceText": "Sorry to hear this. Our teens may be disappointed if we cannot do what they want to do, like playing sports or doing other physically demanding activities. But remember, what is most important is that we spend time with them. That looks different for everyone!",
+        "text": "Sorry to hear this. Our teens may be disappointed if we cannot do what they want to do, like playing sports or doing other physically demanding activities. But remember, what is most important is that we spend time with them. That looks different for everyone!",
+        "type": "template"
     },
     {
         "SourceText": "Watch my teen do the activity and cheer them on.",
@@ -629,10 +622,15 @@
         "type": "template"
     },
     {
-        "SourceText": "That’s perfect! If you need any inspiration, you can find suggestions for activities in your @global.parent_centre . Remember, let your teen choose the activity!",
-        "text": "That’s perfect! If you need any inspiration, you can find suggestions for activities in your @global.parent_centre . Remember, let your teen choose the activity!",
+        "SourceText": "That’s perfect! If you need any inspiration, you can find suggestions for activities @data.parent_centre.relax_and_activities.location_text . Remember, let your teen choose the activity!",
+        "text": "That’s perfect! If you need any inspiration, you can find suggestions for activities @data.parent_centre.relax_and_activities.location_text . Remember, let your teen choose the activity!",
         "type": "template",
-        "note": "The string @global.parent_centre should not be translated."
+        "note": "The string @data.parent_centre.relax_and_activities.location_text should not be translated."
+    },
+    {
+        "SourceText": "This sometimes happens! Competitive games can be challenging for teens (and adults!) if they have difficulty with losing.",
+        "text": "This sometimes happens! Competitive games can be challenging for teens (and adults!) if they have difficulty with losing.",
+        "type": "template"
     },
     {
         "SourceText": "Suggest other activities that we can do together instead of against each other.",
@@ -645,14 +643,19 @@
         "type": "template"
     },
     {
-        "SourceText": "Remember, let your teen choose! You can find suggestions for activities you could do with your teen in your @global.parent_centre, if you need it.",
-        "text": "Remember, let your teen choose! You can find suggestions for activities you could do with your teen in your @global.parent_centre, if you need it.",
+        "SourceText": "Remember, let your teen choose! You can find suggestions for activities you could do with your teen @data.parent_centre.relax_and_activities.location_text, if you need it.",
+        "text": "Remember, let your teen choose! You can find suggestions for activities you could do with your teen @data.parent_centre.relax_and_activities.location_text, if you need it.",
         "type": "template",
-        "note": "The string @global.parent_centre should not be translated."
+        "note": "The string @data.parent_centre.relax_and_activities.location_text should not be translated."
     },
     {
         "SourceText": "If you and your teen are in the same team, you can help them manage their emotions if your team loses.",
         "text": "If you and your teen are in the same team, you can help them manage their emotions if your team loses.",
+        "type": "template"
+    },
+    {
+        "SourceText": "Yes, the end of one-on-one time can sometimes be difficult.",
+        "text": "Yes, the end of one-on-one time can sometimes be difficult.",
         "type": "template"
     },
     {
@@ -681,8 +684,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Wonderful! If you spend time together right before dinner, you can happily say, “One-on-one time is over. Let’s get ready for dinner with the rest of the family!”",
-        "text": "Wonderful! If you spend time together right before dinner, you can happily say, “One-on-one time is over. Let’s get ready for dinner with the rest of the family!”",
+        "SourceText": "Wonderful! If you spend time together right before dinner, you can happily say, “one-on-one time is over. Let’s get ready for dinner with the rest of the family!”",
+        "text": "Wonderful! If you spend time together right before dinner, you can happily say, “one-on-one time is over. Let’s get ready for dinner with the rest of the family!”",
+        "type": "template"
+    },
+    {
+        "SourceText": "Many parents face this. It can be difficult to spend one-on-one time with our teens when we have more than one child.",
+        "text": "Many parents face this. It can be difficult to spend one-on-one time with our teens when we have more than one child.",
         "type": "template"
     },
     {
@@ -913,18 +921,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Thousands of parents have learned to give a realistic, positive and specific instructions to their teens. Here are some challenges that they experienced.",
-        "text": "Thousands of parents have learned to give a realistic, positive and specific instructions to their teens. Here are some challenges that they experienced.",
+        "SourceText": "Did you have any challenges?",
+        "text": "Did you have any challenges?",
         "type": "template"
     },
     {
-        "SourceText": "Did you have any challenges when trying to spend time with your teen?",
-        "text": "Did you have any challenges when trying to spend time with your teen?",
-        "type": "template"
-    },
-    {
-        "SourceText": "What challenge did you have when trying to spend time with your teen?",
-        "text": "What challenge did you have when trying to spend time with your teen?",
+        "SourceText": "What challenge did you have?",
+        "text": "What challenge did you have?",
         "type": "template"
     },
     {
@@ -993,15 +996,10 @@
         "type": "template"
     },
     {
-        "SourceText": "It is difficult to come up with instructions while we are still angry. Try and find a time when you are calm to introduce a positive instruction to your teen. \n\nIn the next @global.weekly_workshop, we’ll talk more about how we can manage our emotions!  You can find more relaxation activities under \"Relax and Activities\" in the @global.parent_centre .",
-        "text": "It is difficult to come up with instructions while we are still angry. Try and find a time when you are calm to introduce a positive instruction to your teen. \n\nIn the next @global.weekly_workshop, we’ll talk more about how we can manage our emotions!  You can find more relaxation activities under \"Relax and Activities\" in the @global.parent_centre .",
+        "SourceText": "It is difficult to come up with instructions while we are still angry. Try and find a time when you are calm to introduce a positive instruction to your teen. \n\nIn the next @global.weekly_workshop, we’ll talk more about how we can manage our emotions!  You can find more relaxation activities @data.parent_centre.relax_and_activities.location_text .",
+        "text": "It is difficult to come up with instructions while we are still angry. Try and find a time when you are calm to introduce a positive instruction to your teen. \n\nIn the next @global.weekly_workshop, we’ll talk more about how we can manage our emotions!  You can find more relaxation activities @data.parent_centre.relax_and_activities.location_text .",
         "type": "template",
-        "note": "The following strings should not be translated: \n     @global.weekly_workshop\n     @global.parent_centre"
-    },
-    {
-        "SourceText": "Relaxation activities",
-        "text": "Relaxation activities",
-        "type": "template"
+        "note": "The following strings should not be translated: \n     @global.weekly_workshop\n     @data.parent_centre.relax_and_activities.location_text"
     },
     {
         "SourceText": "Your goal was to make a family budget and savings plan. We noticed you tapped the @data.habit.money.in_text_title - great job for remembering!",
@@ -1030,8 +1028,8 @@
         "type": "template"
     },
     {
-        "SourceText": "What challenges did you have when making your budget together?",
-        "text": "What challenges did you have when making your budget together?",
+        "SourceText": "What whas difficult for you about making your budget together?",
+        "text": "What whas difficult for you about making your budget together?",
         "type": "template"
     },
     {
@@ -1405,14 +1403,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Talking to our teens about how we feel is not always easy. Here are the top @local.number_of_challenges challenges other parents shared with us.",
-        "text": "Talking to our teens about how we feel is not always easy. Here are the top @local.number_of_challenges challenges other parents shared with us.",
-        "type": "template",
-        "note": "The string @local.number_of_challenges should not be translated."
-    },
-    {
-        "SourceText": "Did you experience any of these?",
-        "text": "Did you experience any of these?",
+        "SourceText": "Did you experience any of these challenges when sharing how you feel with your teen?",
+        "text": "Did you experience any of these challenges when sharing how you feel with your teen?",
         "type": "template"
     },
     {
@@ -2051,10 +2043,10 @@
         "type": "template"
     },
     {
-        "SourceText": "Here are the top @local.number_of_challenges challenges other parents experience while trying to @local.hp_description_third_plural .",
-        "text": "Here are the top @local.number_of_challenges challenges other parents experience while trying to @local.hp_description_third_plural .",
+        "SourceText": "Top @local.number_of_challenges challenges other parents experience:",
+        "text": "Top @local.number_of_challenges challenges other parents experience:",
         "type": "template",
-        "note": "The following strings should not be translated: \n     @local.number_of_challenges\n     @local.hp_description_third_plural"
+        "note": "The string @local.number_of_challenges should not be translated."
     },
     {
         "SourceText": "Did you experience any challenges when trying to @local.hp_description_second_singular?",
@@ -2096,11 +2088,6 @@
     {
         "SourceText": "text_challenge_6",
         "text": "text_challenge_6",
-        "type": "template"
-    },
-    {
-        "SourceText": "My challenge is not listed here.",
-        "text": "My challenge is not listed here.",
         "type": "template"
     },
     {
@@ -2200,11 +2187,6 @@
         "type": "template"
     },
     {
-        "SourceText": "Can you share with us your tip to other parents?",
-        "text": "Can you share with us your tip to other parents?",
-        "type": "template"
-    },
-    {
         "SourceText": "Do you want to share with us what you think would help you?",
         "text": "Do you want to share with us what you think would help you?",
         "type": "template"
@@ -2235,8 +2217,19 @@
         "type": "template"
     },
     {
+        "SourceText": "Why @local.workshop_data.title?",
+        "text": "Why @local.workshop_data.title?",
+        "type": "template",
+        "note": "The string @local.workshop_data.title should not be translated."
+    },
+    {
         "SourceText": "Hear Sbo's message",
         "text": "Hear Sbo's message",
+        "type": "template"
+    },
+    {
+        "SourceText": "Read Sbo's message",
+        "text": "Read Sbo's message",
         "type": "template"
     },
     {
@@ -2315,11 +2308,6 @@
         "type": "template"
     },
     {
-        "SourceText": "Let’s do a 30 second relaxation activity together.",
-        "text": "Let’s do a 30 second relaxation activity together.",
-        "type": "template"
-    },
-    {
         "SourceText": "Relax",
         "text": "Relax",
         "type": "template"
@@ -2382,8 +2370,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Think about how your home activities went this week. \n\nTake turns to discuss: \n- What went well and what was a problem? \n- What solutions can you think of together? \n- Pick one solution and try it later with your teen! \n\n(Or you can even practice it now so it will be easier later!)",
-        "text": "Think about how your home activities went this week. \n\nTake turns to discuss: \n- What went well and what was a problem? \n- What solutions can you think of together? \n- Pick one solution and try it later with your teen! \n\n(Or you can even practice it now so it will be easier later!)",
+        "SourceText": "Think about how your home activities went this week. \n\nTake turns to discuss: \n* What went well and what was a problem? \n* What solutions can you think of together? \n* Pick one solution and try it later with your teen! \n\n(Or you can even practice it now so it will be easier later!)",
+        "text": "Think about how your home activities went this week. \n\nTake turns to discuss: \n* What went well and what was a problem? \n* What solutions can you think of together? \n* Pick one solution and try it later with your teen! \n\n(Or you can even practice it now so it will be easier later!)",
         "type": "template"
     },
     {
@@ -2397,8 +2385,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Take turns:\n- Share: How are you feeling today?\n- Praise someone in your group for something they did well this week!\n\nRemember that no matter how you feel, it’s great you are here. You all deserve praise.",
-        "text": "Take turns:\n- Share: How are you feeling today?\n- Praise someone in your group for something they did well this week!\n\nRemember that no matter how you feel, it’s great you are here. You all deserve praise.",
+        "SourceText": "Take turns:\n* Share: How are you feeling today?\n* Praise someone in your group for something they did well this week!\n\nRemember that no matter how you feel, it’s great you are here. You all deserve praise.",
+        "text": "Take turns:\n* Share: How are you feeling today?\n* Praise someone in your group for something they did well this week!\n\nRemember that no matter how you feel, it’s great you are here. You all deserve praise.",
         "type": "template"
     },
     {
@@ -2494,6 +2482,41 @@
         "type": "template"
     },
     {
+        "SourceText": "Contact me via email",
+        "text": "Contact me via email",
+        "type": "template"
+    },
+    {
+        "SourceText": "Checkbox 3 text",
+        "text": "Checkbox 3 text",
+        "type": "template"
+    },
+    {
+        "SourceText": "Checkbox 3 form text",
+        "text": "Checkbox 3 form text",
+        "type": "template"
+    },
+    {
+        "SourceText": "Hello",
+        "text": "Hello",
+        "type": "template"
+    },
+    {
+        "SourceText": "Dynamic Texts",
+        "text": "Dynamic Texts",
+        "type": "template"
+    },
+    {
+        "SourceText": "local_full_stop",
+        "text": "local_full_stop",
+        "type": "template"
+    },
+    {
+        "SourceText": "This template should show the same information on both sections",
+        "text": "This template should show the same information on both sections",
+        "type": "template"
+    },
+    {
         "SourceText": "Content",
         "text": "Content",
         "type": "template"
@@ -2519,8 +2542,33 @@
         "type": "template"
     },
     {
-        "SourceText": "New text",
-        "text": "New text",
+        "SourceText": "Text 1",
+        "text": "Text 1",
+        "type": "template"
+    },
+    {
+        "SourceText": "Text 2",
+        "text": "Text 2",
+        "type": "template"
+    },
+    {
+        "SourceText": "Text 3",
+        "text": "Text 3",
+        "type": "template"
+    },
+    {
+        "SourceText": "radio_group_final_temp",
+        "text": "radio_group_final_temp",
+        "type": "template"
+    },
+    {
+        "SourceText": "Option 1",
+        "text": "Option 1",
+        "type": "template"
+    },
+    {
+        "SourceText": "Option 2",
+        "text": "Option 2",
         "type": "template"
     },
     {
@@ -2544,6 +2592,18 @@
         "type": "template"
     },
     {
+        "SourceText": "Value of last slider: @local.slider_without_value_labels_1",
+        "text": "Value of last slider: @local.slider_without_value_labels_1",
+        "type": "template",
+        "note": "The string @local.slider_without_value_labels_1 should not be translated."
+    },
+    {
+        "SourceText": "Value of last slider: @local.slider_without_value_labels_2",
+        "text": "Value of last slider: @local.slider_without_value_labels_2",
+        "type": "template",
+        "note": "The string @local.slider_without_value_labels_2 should not be translated."
+    },
+    {
         "SourceText": "form with 'go to'",
         "text": "form with 'go to'",
         "type": "template"
@@ -2554,18 +2614,33 @@
         "type": "template"
     },
     {
-        "SourceText": "At the end of the day, take a minute to: \r\n\r\n- Talk to your teen about one fun thing they did. \r\n- Praise yourself for one thing you did well today. \r\n- You are a star!",
-        "text": "At the end of the day, take a minute to: \r\n\r\n- Talk to your teen about one fun thing they did. \r\n- Praise yourself for one thing you did well today. \r\n- You are a star!",
+        "SourceText": "happy",
+        "text": "happy",
         "type": "template"
     },
     {
-        "SourceText": "- Ask each other, “What made you happy today?”\n- Ask each other, “What difficulty did you face today?”\n- Ask each other, “How can I help you?”\n- Try to do this together every day; it could be when you are eating dinner together or before you go to bed.",
-        "text": "- Ask each other, “What made you happy today?”\n- Ask each other, “What difficulty did you face today?”\n- Ask each other, “How can I help you?”\n- Try to do this together every day; it could be when you are eating dinner together or before you go to bed.",
+        "SourceText": "Powered by Parenting for Lifelong Health and partners",
+        "text": "Powered by Parenting for Lifelong Health and partners",
         "type": "template"
     },
     {
-        "SourceText": "- You can’t always travel, but you can always dream! Ask your teen these questions:\r\n- Where would you want to travel to? How long would you be away? What would you pack? What would you do on your trip? What would you see?\r\n- Look at a map together or draw one.\r\n- Choose a country that your teen has never heard of and learn more about the country.",
-        "text": "- You can’t always travel, but you can always dream! Ask your teen these questions:\r\n- Where would you want to travel to? How long would you be away? What would you pack? What would you do on your trip? What would you see?\r\n- Look at a map together or draw one.\r\n- Choose a country that your teen has never heard of and learn more about the country.",
+        "SourceText": "ParentApp funded by",
+        "text": "ParentApp funded by",
+        "type": "template"
+    },
+    {
+        "SourceText": "At the end of the day, take a minute to: \n\n* Talk to your teen about one fun thing they did. \n* Praise yourself for one thing you did well today. \n* You are a star!",
+        "text": "At the end of the day, take a minute to: \n\n* Talk to your teen about one fun thing they did. \n* Praise yourself for one thing you did well today. \n* You are a star!",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Ask each other, “What made you happy today?”\n* Ask each other, “What difficulty did you face today?”\n* Ask each other, “How can I help you?”\n* Try to do this together every day; it could be when you are eating dinner together or before you go to bed.",
+        "text": "* Ask each other, “What made you happy today?”\n* Ask each other, “What difficulty did you face today?”\n* Ask each other, “How can I help you?”\n* Try to do this together every day; it could be when you are eating dinner together or before you go to bed.",
+        "type": "template"
+    },
+    {
+        "SourceText": "* You can’t always travel, but you can always dream! Ask your teen these questions:\n* Where would you want to travel to? How long would you be away? What would you pack? What would you do on your trip? What would you see?\n* Look at a map together or draw one.\n* Choose a country that your teen has never heard of and learn more about the country.",
+        "text": "* You can’t always travel, but you can always dream! Ask your teen these questions:\n* Where would you want to travel to? How long would you be away? What would you pack? What would you do on your trip? What would you see?\n* Look at a map together or draw one.\n* Choose a country that your teen has never heard of and learn more about the country.",
         "type": "template"
     },
     {
@@ -2574,8 +2649,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Think of three statements about yourself. Two must be true and one must be a lie.\n- It might help to think of wishes, dreams, experiences at school, likes or dislikes. For example: I hate bananas, my favourite subject is science, and I really wish I could sing. \n- Say them to your teenager and ask them to guess which one is a lie. \n- Did they guess correctly? Was it a surprise?\n- Now ask them to do the same. Did you learn something new about each other?",
-        "text": "- Think of three statements about yourself. Two must be true and one must be a lie.\n- It might help to think of wishes, dreams, experiences at school, likes or dislikes. For example: I hate bananas, my favourite subject is science, and I really wish I could sing. \n- Say them to your teenager and ask them to guess which one is a lie. \n- Did they guess correctly? Was it a surprise?\n- Now ask them to do the same. Did you learn something new about each other?",
+        "SourceText": "* Think of three statements about yourself. Two must be true and one must be a lie.\n* It might help to think of wishes, dreams, experiences at school, likes or dislikes. For example: I hate bananas, my favourite subject is science, and I really wish I could sing. \n* Say them to your teenager and ask them to guess which one is a lie. \n* Did they guess correctly? Was it a surprise?\n* Now ask them to do the same. Did you learn something new about each other?",
+        "text": "* Think of three statements about yourself. Two must be true and one must be a lie.\n* It might help to think of wishes, dreams, experiences at school, likes or dislikes. For example: I hate bananas, my favourite subject is science, and I really wish I could sing. \n* Say them to your teenager and ask them to guess which one is a lie. \n* Did they guess correctly? Was it a surprise?\n* Now ask them to do the same. Did you learn something new about each other?",
         "type": "template"
     },
     {
@@ -2584,8 +2659,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Think of a superpower. For example, going anywhere instantly, travelling in time, reading minds. \n- Ask your teen, “If you had the superpower to […], how would you use it?”\n- Encourage them to give their superhero a name and act it out. \n- Now let your teen choose a superpower for you.\n- Make sure you act out your superpower, too!",
-        "text": "- Think of a superpower. For example, going anywhere instantly, travelling in time, reading minds. \n- Ask your teen, “If you had the superpower to […], how would you use it?”\n- Encourage them to give their superhero a name and act it out. \n- Now let your teen choose a superpower for you.\n- Make sure you act out your superpower, too!",
+        "SourceText": "* Think of a superpower. For example, going anywhere instantly, travelling in time, reading minds. \n* Ask your teen, “If you had the superpower to […], how would you use it?”\n* Encourage them to give their superhero a name and act it out. \n* Now let your teen choose a superpower for you.\n* Make sure you act out your superpower, too!",
+        "text": "* Think of a superpower. For example, going anywhere instantly, travelling in time, reading minds. \n* Ask your teen, “If you had the superpower to […], how would you use it?”\n* Encourage them to give their superhero a name and act it out. \n* Now let your teen choose a superpower for you.\n* Make sure you act out your superpower, too!",
         "type": "template"
     },
     {
@@ -2594,43 +2669,43 @@
         "type": "template"
     },
     {
-        "SourceText": "- Choose a storyteller to start making up a story.\n- Story listeners can interrupt with a word at any time.\n- Storyteller needs to fit that word in their story.\n- When the story is finished, try with a different storyteller!",
-        "text": "- Choose a storyteller to start making up a story.\n- Story listeners can interrupt with a word at any time.\n- Storyteller needs to fit that word in their story.\n- When the story is finished, try with a different storyteller!",
+        "SourceText": "* Choose a storyteller to start making up a story.\n* Story listeners can interrupt with a word at any time.\n* Storyteller needs to fit that word in their story.\n* When the story is finished, try with a different storyteller!",
+        "text": "* Choose a storyteller to start making up a story.\n* Story listeners can interrupt with a word at any time.\n* Storyteller needs to fit that word in their story.\n* When the story is finished, try with a different storyteller!",
         "type": "template"
     },
     {
-        "SourceText": "- Think of three different situations. For example, driving a car, sailing a boat or flying a plane.\n- Say them to your teen and ask, “Which would you prefer?”\n- Ask them why?\n- Now think of three more situations or ask your teen to do it for you.",
-        "text": "- Think of three different situations. For example, driving a car, sailing a boat or flying a plane.\n- Say them to your teen and ask, “Which would you prefer?”\n- Ask them why?\n- Now think of three more situations or ask your teen to do it for you.",
+        "SourceText": "* Think of three different situations. For example, driving a car, sailing a boat or flying a plane.\n* Say them to your teen and ask, “Which would you prefer?”\n* Ask them why?\n* Now think of three more situations or ask your teen to do it for you.",
+        "text": "* Think of three different situations. For example, driving a car, sailing a boat or flying a plane.\n* Say them to your teen and ask, “Which would you prefer?”\n* Ask them why?\n* Now think of three more situations or ask your teen to do it for you.",
         "type": "template"
     },
     {
-        "SourceText": "- Ask each other questions. They can be any questions about things you like or what you did today.\n- The only rule is that you can’t answer “Yes”, “No” or “Maybe”.\n- How long can you last? How creative can you get with your answers?\n- Swap over and play again!",
-        "text": "- Ask each other questions. They can be any questions about things you like or what you did today.\n- The only rule is that you can’t answer “Yes”, “No” or “Maybe”.\n- How long can you last? How creative can you get with your answers?\n- Swap over and play again!",
+        "SourceText": "* Ask each other questions. They can be any questions about things you like or what you did today.\n* The only rule is that you can’t answer “Yes”, “No” or “Maybe”.\n* How long can you last? How creative can you get with your answers?\n* Swap over and play again!",
+        "text": "* Ask each other questions. They can be any questions about things you like or what you did today.\n* The only rule is that you can’t answer “Yes”, “No” or “Maybe”.\n* How long can you last? How creative can you get with your answers?\n* Swap over and play again!",
         "type": "template"
     },
     {
-        "SourceText": "- First person says, “On Saturday, I am going to… (e.g., go to the park)”\n- Second person adds to first person, “On Saturday, I am going to the park and… (e.g., visit my best friend).\n- Each person adds to the previous, trying to think of all of the fun things to do on Saturday.",
-        "text": "- First person says, “On Saturday, I am going to… (e.g., go to the park)”\n- Second person adds to first person, “On Saturday, I am going to the park and… (e.g., visit my best friend).\n- Each person adds to the previous, trying to think of all of the fun things to do on Saturday.",
+        "SourceText": "* First person says, “On Saturday, I am going to… (e.g., go to the park)”\n* Second person adds to first person, “On Saturday, I am going to the park and… (e.g., visit my best friend).\n* Each person adds to the previous, trying to think of all of the fun things to do on Saturday.",
+        "text": "* First person says, “On Saturday, I am going to… (e.g., go to the park)”\n* Second person adds to first person, “On Saturday, I am going to the park and… (e.g., visit my best friend).\n* Each person adds to the previous, trying to think of all of the fun things to do on Saturday.",
         "type": "template"
     },
     {
-        "SourceText": "- Start the story with “Once upon a time there was a…”\n- Let your teen make up the next sentence.\n- Then you make up a sentence.\n- Take turns until you have a wonderful new story.\n- Make sure to end the story on a positive note.\n- Ask your teen what was their favourite part of the story!",
-        "text": "- Start the story with “Once upon a time there was a…”\n- Let your teen make up the next sentence.\n- Then you make up a sentence.\n- Take turns until you have a wonderful new story.\n- Make sure to end the story on a positive note.\n- Ask your teen what was their favourite part of the story!",
+        "SourceText": "* Start the story with “Once upon a time there was a…”\n* Let your teen make up the next sentence.\n* Then you make up a sentence.\n* Take turns until you have a wonderful new story.\n* Make sure to end the story on a positive note.\n* Ask your teen what was their favourite part of the story!",
+        "text": "* Start the story with “Once upon a time there was a…”\n* Let your teen make up the next sentence.\n* Then you make up a sentence.\n* Take turns until you have a wonderful new story.\n* Make sure to end the story on a positive note.\n* Ask your teen what was their favourite part of the story!",
         "type": "template"
     },
     {
-        "SourceText": "- Ask your teen what kind of meal they would like to eat. \n- Prepare it together!    \n- Let them have a turn at being the head chef – they lead, and you follow their instructions. \n- You can even help them to make a budget for the ingredients! \n\nDon’t think it will work? Ask your teens what THEY would like for you and them to do together. Let them lead. Relax. Have fun.",
-        "text": "- Ask your teen what kind of meal they would like to eat. \n- Prepare it together!    \n- Let them have a turn at being the head chef – they lead, and you follow their instructions. \n- You can even help them to make a budget for the ingredients! \n\nDon’t think it will work? Ask your teens what THEY would like for you and them to do together. Let them lead. Relax. Have fun.",
+        "SourceText": "* Ask your teen what kind of meal they would like to eat. \n* Prepare it together!    \n* Let them have a turn at being the head chef – they lead, and you follow their instructions. \n* You can even help them to make a budget for the ingredients! \n\nDon’t think it will work? Ask your teens what THEY would like for you and them to do together. Let them lead. Relax. Have fun.",
+        "text": "* Ask your teen what kind of meal they would like to eat. \n* Prepare it together!    \n* Let them have a turn at being the head chef – they lead, and you follow their instructions. \n* You can even help them to make a budget for the ingredients! \n\nDon’t think it will work? Ask your teens what THEY would like for you and them to do together. Let them lead. Relax. Have fun.",
         "type": "template"
     },
     {
-        "SourceText": "- Create a set of dance moves to your teen's favourite songs. \n- One person does a dance move and everyone else copies it.  \n- Everyone takes turns being the leader. \n- Perform it for the household!",
-        "text": "- Create a set of dance moves to your teen's favourite songs. \n- One person does a dance move and everyone else copies it.  \n- Everyone takes turns being the leader. \n- Perform it for the household!",
+        "SourceText": "* Create a set of dance moves to your teen's favourite songs. \n* One person does a dance move and everyone else copies it.  \n* Everyone takes turns being the leader. \n* Perform it for the household!",
+        "text": "* Create a set of dance moves to your teen's favourite songs. \n* One person does a dance move and everyone else copies it.  \n* Everyone takes turns being the leader. \n* Perform it for the household!",
         "type": "template"
     },
     {
-        "SourceText": "- This game can be played in pairs or with many people in a group.\n- Stand facing each other or in a circle. \n- One person leads first and everyone else copies them, trying to move exactly at the same time as the leader.\n- Make sure the leader moves slowly enough for everyone else to follow! Explore moving different body parts and in different levels.\n- After a while, switch who is leading. Give everyone a chance to lead.\n- Try it with no leaders!",
-        "text": "- This game can be played in pairs or with many people in a group.\n- Stand facing each other or in a circle. \n- One person leads first and everyone else copies them, trying to move exactly at the same time as the leader.\n- Make sure the leader moves slowly enough for everyone else to follow! Explore moving different body parts and in different levels.\n- After a while, switch who is leading. Give everyone a chance to lead.\n- Try it with no leaders!",
+        "SourceText": "* This game can be played in pairs or with many people in a group.\n* Stand facing each other or in a circle. \n* One person leads first and everyone else copies them, trying to move exactly at the same time as the leader.\n* Make sure the leader moves slowly enough for everyone else to follow! Explore moving different body parts and in different levels.\n* After a while, switch who is leading. Give everyone a chance to lead.\n* Try it with no leaders!",
+        "text": "* This game can be played in pairs or with many people in a group.\n* Stand facing each other or in a circle. \n* One person leads first and everyone else copies them, trying to move exactly at the same time as the leader.\n* Make sure the leader moves slowly enough for everyone else to follow! Explore moving different body parts and in different levels.\n* After a while, switch who is leading. Give everyone a chance to lead.\n* Try it with no leaders!",
         "type": "template"
     },
     {
@@ -2639,43 +2714,43 @@
         "type": "template"
     },
     {
-        "SourceText": "- Think of a new skill you could learn together with your teen. For example, keeping a ball in the air or your foot, juggling, making soup?\n- Take turns in trying the new skill out.\n- Make sure to praise each other, and try to learn and play together!",
-        "text": "- Think of a new skill you could learn together with your teen. For example, keeping a ball in the air or your foot, juggling, making soup?\n- Take turns in trying the new skill out.\n- Make sure to praise each other, and try to learn and play together!",
+        "SourceText": "* Think of a new skill you could learn together with your teen. For example, keeping a ball in the air or your foot, juggling, making soup?\n* Take turns in trying the new skill out.\n* Make sure to praise each other, and try to learn and play together!",
+        "text": "* Think of a new skill you could learn together with your teen. For example, keeping a ball in the air or your foot, juggling, making soup?\n* Take turns in trying the new skill out.\n* Make sure to praise each other, and try to learn and play together!",
         "type": "template"
     },
     {
-        "SourceText": "- Come up with three types of exercise together. For example, walking, jogging, soccer or dancing.\n- Pick one together and try it out. \n- If you both like it, decide how often you are going to do it. Once or twice a week? Every morning?\n- Together think of ways to make it even more fun. Can you jog to a certain point? Take turns in being the coach? Motivate each other with a small free reward?",
-        "text": "- Come up with three types of exercise together. For example, walking, jogging, soccer or dancing.\n- Pick one together and try it out. \n- If you both like it, decide how often you are going to do it. Once or twice a week? Every morning?\n- Together think of ways to make it even more fun. Can you jog to a certain point? Take turns in being the coach? Motivate each other with a small free reward?",
+        "SourceText": "* Come up with three types of exercise together. For example, walking, jogging, soccer or dancing.\n* Pick one together and try it out. \n* If you both like it, decide how often you are going to do it. Once or twice a week? Every morning?\n* Together think of ways to make it even more fun. Can you jog to a certain point? Take turns in being the coach? Motivate each other with a small free reward?",
+        "text": "* Come up with three types of exercise together. For example, walking, jogging, soccer or dancing.\n* Pick one together and try it out. \n* If you both like it, decide how often you are going to do it. Once or twice a week? Every morning?\n* Together think of ways to make it even more fun. Can you jog to a certain point? Take turns in being the coach? Motivate each other with a small free reward?",
         "type": "template"
     },
     {
-        "SourceText": "- The first person gets to choose or sing a song.\n- Everyone else must guess the name of the tune (to make it harder they can guess the singer).\n- The first one to guess it right becomes the next leader.",
-        "text": "- The first person gets to choose or sing a song.\n- Everyone else must guess the name of the tune (to make it harder they can guess the singer).\n- The first one to guess it right becomes the next leader.",
+        "SourceText": "* The first person gets to choose or sing a song.\n* Everyone else must guess the name of the tune (to make it harder they can guess the singer).\n* The first one to guess it right becomes the next leader.",
+        "text": "* The first person gets to choose or sing a song.\n* Everyone else must guess the name of the tune (to make it harder they can guess the singer).\n* The first one to guess it right becomes the next leader.",
         "type": "template"
     },
     {
-        "SourceText": "This game is best with at least 3 people.\n- Start in a circle and pass one “snap” around the circle (or a “clap” if you cannot snap).\n- You “snap” once to throw the “snap”, and once to catch it. Look at the person you are throwing it to.  \n- The direction (up, down, straight, curved, rolling the ground) and force (hard, soft, medium) that you throw the snap should affect how the person catches it.  \n- You can bounce the “snap”, throw it in the air, and catch it a few times before passing it.  \n- When everyone gets good at this, you can start moving around the room, still passing the “snap”.  \n- Can you throw under the leg? Behind the back? Through your head? Intercept a pass? Have fun with the “snap”!",
-        "text": "This game is best with at least 3 people.\n- Start in a circle and pass one “snap” around the circle (or a “clap” if you cannot snap).\n- You “snap” once to throw the “snap”, and once to catch it. Look at the person you are throwing it to.  \n- The direction (up, down, straight, curved, rolling the ground) and force (hard, soft, medium) that you throw the snap should affect how the person catches it.  \n- You can bounce the “snap”, throw it in the air, and catch it a few times before passing it.  \n- When everyone gets good at this, you can start moving around the room, still passing the “snap”.  \n- Can you throw under the leg? Behind the back? Through your head? Intercept a pass? Have fun with the “snap”!",
+        "SourceText": "This game is best with at least 3 people.\n* Start in a circle and pass one “snap” around the circle (or a “clap” if you cannot snap).\n* You “snap” once to throw the “snap”, and once to catch it. Look at the person you are throwing it to.  \n* The direction (up, down, straight, curved, rolling the ground) and force (hard, soft, medium) that you throw the snap should affect how the person catches it.  \n* You can bounce the “snap”, throw it in the air, and catch it a few times before passing it.  \n* When everyone gets good at this, you can start moving around the room, still passing the “snap”.  \n* Can you throw under the leg? Behind the back? Through your head? Intercept a pass? Have fun with the “snap”!",
+        "text": "This game is best with at least 3 people.\n* Start in a circle and pass one “snap” around the circle (or a “clap” if you cannot snap).\n* You “snap” once to throw the “snap”, and once to catch it. Look at the person you are throwing it to.  \n* The direction (up, down, straight, curved, rolling the ground) and force (hard, soft, medium) that you throw the snap should affect how the person catches it.  \n* You can bounce the “snap”, throw it in the air, and catch it a few times before passing it.  \n* When everyone gets good at this, you can start moving around the room, still passing the “snap”.  \n* Can you throw under the leg? Behind the back? Through your head? Intercept a pass? Have fun with the “snap”!",
         "type": "template"
     },
     {
-        "SourceText": "Choose a sport or exercise to do together. Decide on a schedule. Are you going to do it every day? For how long? \n\nTry it out for a week. At the end of the week, ask yourself and your family these questions:\n- How is it going? \n- How did you feel at the start of the week? \n- How do you feel at the end of the week? \n- What can we do differently next week?",
-        "text": "Choose a sport or exercise to do together. Decide on a schedule. Are you going to do it every day? For how long? \n\nTry it out for a week. At the end of the week, ask yourself and your family these questions:\n- How is it going? \n- How did you feel at the start of the week? \n- How do you feel at the end of the week? \n- What can we do differently next week?",
+        "SourceText": "Choose a sport or exercise to do together. Decide on a schedule. Are you going to do it every day? For how long? \n\nTry it out for a week. At the end of the week, ask yourself and your family these questions:\n* How is it going? \n* How did you feel at the start of the week? \n* How do you feel at the end of the week? \n* What can we do differently next week?",
+        "text": "Choose a sport or exercise to do together. Decide on a schedule. Are you going to do it every day? For how long? \n\nTry it out for a week. At the end of the week, ask yourself and your family these questions:\n* How is it going? \n* How did you feel at the start of the week? \n* How do you feel at the end of the week? \n* What can we do differently next week?",
         "type": "template"
     },
     {
-        "SourceText": "Take turns being the “leader”. Say the intro sentences to activate everyone. Then the “leader” gives an instruction and everyone does the activity as fast as possible:\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Touch something red.” \n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Jump up and down ten times.”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Put the shoes in the shoe rack.”",
-        "text": "Take turns being the “leader”. Say the intro sentences to activate everyone. Then the “leader” gives an instruction and everyone does the activity as fast as possible:\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Touch something red.” \n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Jump up and down ten times.”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “There’s a fire on the mountain!”        \n- Together: “Run, run, run!”\n- Leader: “Put the shoes in the shoe rack.”",
+        "SourceText": "Take turns being the “leader”. Say the intro sentences to activate everyone. Then the “leader” gives an instruction and everyone does the activity as fast as possible:\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Touch something red.” \n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Jump up and down ten times.”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Put the shoes in the shoe rack.”",
+        "text": "Take turns being the “leader”. Say the intro sentences to activate everyone. Then the “leader” gives an instruction and everyone does the activity as fast as possible:\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Touch something red.” \n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Jump up and down ten times.”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “There’s a fire on the mountain!”        \n* Together: “Run, run, run!”\n* Leader: “Put the shoes in the shoe rack.”",
         "type": "template"
     },
     {
-        "SourceText": "This game is best when more than 2 people play.\n- One person pretends to be doing something – for example, combing hair or making dinner. \n- Another person asks, “What are you doing?”\n- The first person needs to say something that has nothing to do with combing hair, for example, “Tying my shoes.”  \n- The second person then starts pretending to tie their shoes until a new person asks, “What are you doing?” \n\nThe answer must always be something different than what you are actually doing!",
-        "text": "This game is best when more than 2 people play.\n- One person pretends to be doing something – for example, combing hair or making dinner. \n- Another person asks, “What are you doing?”\n- The first person needs to say something that has nothing to do with combing hair, for example, “Tying my shoes.”  \n- The second person then starts pretending to tie their shoes until a new person asks, “What are you doing?” \n\nThe answer must always be something different than what you are actually doing!",
+        "SourceText": "This game is best when more than 2 people play.\n* One person pretends to be doing something – for example, combing hair or making dinner. \n* Another person asks, “What are you doing?”\n* The first person needs to say something that has nothing to do with combing hair, for example, “Tying my shoes.”  \n* The second person then starts pretending to tie their shoes until a new person asks, “What are you doing?” \n\nThe answer must always be something different than what you are actually doing!",
+        "text": "This game is best when more than 2 people play.\n* One person pretends to be doing something – for example, combing hair or making dinner. \n* Another person asks, “What are you doing?”\n* The first person needs to say something that has nothing to do with combing hair, for example, “Tying my shoes.”  \n* The second person then starts pretending to tie their shoes until a new person asks, “What are you doing?” \n\nThe answer must always be something different than what you are actually doing!",
         "type": "template"
     },
     {
-        "SourceText": "- Shake your left hands in the air 8 times while counting to 8.\n- Do it as fast and loud as you can.\n- Repeat with your other hand. Repeat with both feet.\n- Do it 7 times, then 6 times and continue until you get to 1.\n- Everyone calls out “Crazy chicken” and does their best crazy chicken dance!",
-        "text": "- Shake your left hands in the air 8 times while counting to 8.\n- Do it as fast and loud as you can.\n- Repeat with your other hand. Repeat with both feet.\n- Do it 7 times, then 6 times and continue until you get to 1.\n- Everyone calls out “Crazy chicken” and does their best crazy chicken dance!",
+        "SourceText": "* Shake your left hands in the air 8 times while counting to 8.\n* Do it as fast and loud as you can.\n* Repeat with your other hand. Repeat with both feet.\n* Do it 7 times, then 6 times and continue until you get to 1.\n* Everyone calls out “Crazy chicken” and does their best crazy chicken dance!",
+        "text": "* Shake your left hands in the air 8 times while counting to 8.\n* Do it as fast and loud as you can.\n* Repeat with your other hand. Repeat with both feet.\n* Do it 7 times, then 6 times and continue until you get to 1.\n* Everyone calls out “Crazy chicken” and does their best crazy chicken dance!",
         "type": "template"
     },
     {
@@ -2849,8 +2924,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Make a list of healthy activities that you like to do. Here are some suggestions:\n- Listening to your favourite music\n- Going for a walk (if allowed)\n- Doing some exercise\n- Drinking a cup of tea by yourself\n- Calling up a friend\n- Singing, dancing, praying, or reading\n- Sitting in the sun with your eyes closed\n- Watching your favourite T.V. show\n\nPick one and do it today!",
-        "text": "Make a list of healthy activities that you like to do. Here are some suggestions:\n- Listening to your favourite music\n- Going for a walk (if allowed)\n- Doing some exercise\n- Drinking a cup of tea by yourself\n- Calling up a friend\n- Singing, dancing, praying, or reading\n- Sitting in the sun with your eyes closed\n- Watching your favourite T.V. show\n\nPick one and do it today!",
+        "SourceText": "Make a list of healthy activities that you like to do. Here are some suggestions:\n* Listening to your favourite music\n* Going for a walk (if allowed)\n* Doing some exercise\n* Drinking a cup of tea by yourself\n* Calling up a friend\n* Singing, dancing, praying, or reading\n* Sitting in the sun with your eyes closed\n* Watching your favourite T.V. show\n\nPick one and do it today!",
+        "text": "Make a list of healthy activities that you like to do. Here are some suggestions:\n* Listening to your favourite music\n* Going for a walk (if allowed)\n* Doing some exercise\n* Drinking a cup of tea by yourself\n* Calling up a friend\n* Singing, dancing, praying, or reading\n* Sitting in the sun with your eyes closed\n* Watching your favourite T.V. show\n\nPick one and do it today!",
         "type": "template"
     },
     {
@@ -3128,16 +3203,16 @@
         "note": "The following strings should not be translated: \n     @global.parent_centre\n     @global.weekly_workshops"
     },
     {
-        "SourceText": "Being a parent is not easy. It can be difficult to know how to keep our teens safe. We often feel powerless as parents in this, but we are here to support you! You can get focused tools, extra content and resources on this in the @global.parent_centre at any time. \n\nWe’ll also unlock the @global.weekly_workshop on rules, which help with this – they'll be available for you anytime.",
-        "text": "Being a parent is not easy. It can be difficult to know how to keep our teens safe. We often feel powerless as parents in this, but we are here to support you! You can get focused tools, extra content and resources on this in the @global.parent_centre at any time. \n\nWe’ll also unlock the @global.weekly_workshop on rules, which help with this – they'll be available for you anytime.",
-        "type": "template",
-        "note": "The following strings should not be translated: \n     @global.parent_centre\n     @global.weekly_workshop"
-    },
-    {
         "SourceText": "@global.weekly_workshops @global.w_rules and @global.w_safe unlocked",
         "text": "@global.weekly_workshops @global.w_rules and @global.w_safe unlocked",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.weekly_workshops\n     @global.w_rules\n     @global.w_safe"
+    },
+    {
+        "SourceText": "Being a parent is not easy. It can be difficult to know how to keep our teens safe. We often feel powerless as parents in this, but we are here to support you! You can get focused tools, extra content and resources on this in the @global.parent_centre at any time. \n\nWe’ll also unlock the @global.weekly_workshop on rules, which help with this – they'll be available for you anytime.",
+        "text": "Being a parent is not easy. It can be difficult to know how to keep our teens safe. We often feel powerless as parents in this, but we are here to support you! You can get focused tools, extra content and resources on this in the @global.parent_centre at any time. \n\nWe’ll also unlock the @global.weekly_workshop on rules, which help with this – they'll be available for you anytime.",
+        "type": "template",
+        "note": "The following strings should not be translated: \n     @global.parent_centre\n     @global.weekly_workshop"
     },
     {
         "SourceText": "@global.weekly_workshops @global.w_rules unlocked",
@@ -3308,20 +3383,20 @@
         "type": "template"
     },
     {
-        "SourceText": "Great! We will unlock a new workshop for your group every week on @local.combo_box . This allows all of you to try what you learned with your families before building the next skill.",
-        "text": "Great! We will unlock a new workshop for your group every week on @local.combo_box . This allows all of you to try what you learned with your families before building the next skill.",
+        "SourceText": "Great! We will unlock a new workshop for your group every week on @local.@local.combo_box . This allows all of you to try what you learned with your families before building the next skill.",
+        "text": "Great! We will unlock a new workshop for your group every week on @local.@local.combo_box . This allows all of you to try what you learned with your families before building the next skill.",
         "type": "template",
         "note": "The string @local.combo_box should not be translated."
     },
     {
-        "SourceText": "Great! We will unlock a new workshop for you every week on @local.combo_box .\nThis allows you to try what you learned with your family before building the next skill.",
-        "text": "Great! We will unlock a new workshop for you every week on @local.combo_box .\nThis allows you to try what you learned with your family before building the next skill.",
+        "SourceText": "Great! We will unlock a new workshop for you every week on @local.@local.combo_box . This allows you to try what you learned with your family before building the next skill.",
+        "text": "Great! We will unlock a new workshop for you every week on @local.@local.combo_box . This allows you to try what you learned with your family before building the next skill.",
         "type": "template",
         "note": "The string @local.combo_box should not be translated."
     },
     {
-        "SourceText": "You can always change these settings in your @global.weekly_workshop_options",
-        "text": "You can always change these settings in your @global.weekly_workshop_options",
+        "SourceText": "You can always change these settings in your @global.weekly_workshop_options .",
+        "text": "You can always change these settings in your @global.weekly_workshop_options .",
         "type": "template",
         "note": "The string @global.weekly_workshop_options should not be translated."
     },
@@ -3346,8 +3421,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Agree on your ground rules together:\n- Which day(s)/time(s) will we meet in the week?\n- Who will hold the phone(s) during our activities?\n- How can we make sure everyone can share freely?\n- What can we do so we all feel respected?",
-        "text": "Agree on your ground rules together:\n- Which day(s)/time(s) will we meet in the week?\n- Who will hold the phone(s) during our activities?\n- How can we make sure everyone can share freely?\n- What can we do so we all feel respected?",
+        "SourceText": "Agree on your ground rules together:\n* Which day(s)/time(s) will we meet in the week?\n* Who will hold the phone(s) during our activities?\n* How can we make sure everyone can share freely?\n* What can we do so we all feel respected?",
+        "text": "Agree on your ground rules together:\n* Which day(s)/time(s) will we meet in the week?\n* Who will hold the phone(s) during our activities?\n* How can we make sure everyone can share freely?\n* What can we do so we all feel respected?",
         "type": "template"
     },
     {
@@ -3363,12 +3438,6 @@
         "note": "The string @global.parent_point should not be translated."
     },
     {
-        "SourceText": "Why @global.w_1on1?",
-        "text": "Why @global.w_1on1?",
-        "type": "template",
-        "note": "The string @global.w_1on1 should not be translated."
-    },
-    {
         "SourceText": "Being a parent can be so hard. Sometimes it feels like our children never listen to us.\n\nBut science shows that spending just a few minutes each day of focused one-on-one time with your teen helps build trust and love.",
         "text": "Being a parent can be so hard. Sometimes it feels like our children never listen to us.\n\nBut science shows that spending just a few minutes each day of focused one-on-one time with your teen helps build trust and love.",
         "type": "template"
@@ -3379,13 +3448,18 @@
         "type": "template"
     },
     {
-        "SourceText": "- Ideas for one-on-one time\n- Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n- Home practice suggestions",
-        "text": "- Ideas for one-on-one time\n- Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n- Home practice suggestions",
+        "SourceText": "Hello.\n\nOur topic today is one-on-one time with our children.\n\nIt is important to spend time with our children so that they can get to understand us, and for us to get an opportunity to understand them. \n\nRemember, a family with good understanding live in harmony.",
+        "text": "Hello.\n\nOur topic today is one-on-one time with our children.\n\nIt is important to spend time with our children so that they can get to understand us, and for us to get an opportunity to understand them. \n\nRemember, a family with good understanding live in harmony.",
         "type": "template"
     },
     {
-        "SourceText": "- Self-care activities\n- Ideas for one-on-one time\n- Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n- Home practice suggestions",
-        "text": "- Self-care activities\n- Ideas for one-on-one time\n- Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n- Home practice suggestions",
+        "SourceText": "* Ideas for one-on-one time\n* Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n* Home practice suggestions",
+        "text": "* Ideas for one-on-one time\n* Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Self-care activities\n* Ideas for one-on-one time\n* Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n* Home practice suggestions",
+        "text": "* Self-care activities\n* Ideas for one-on-one time\n* Tools: How to spend one-on-one time\nDAY - PLAY - STAY\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -3397,12 +3471,6 @@
         "SourceText": "It may take some time to get used to one-on-one time, but the more you do it the better it gets!\n\nYou are amazing parents for trying this.",
         "text": "It may take some time to get used to one-on-one time, but the more you do it the better it gets!\n\nYou are amazing parents for trying this.",
         "type": "template"
-    },
-    {
-        "SourceText": "- @global.spend_time_idea_1\n- @global.spend_time_idea_2\n- @global.spend_time_idea_3\n- @global.spend_time_idea_4\n- @global.spend_time_idea_5\n- @global.spend_time_idea_6\n- @global.spend_time_idea_7\n- @global.spend_time_idea_8\n- @global.spend_time_idea_9\n- @global.spend_time_idea_10",
-        "text": "- @global.spend_time_idea_1\n- @global.spend_time_idea_2\n- @global.spend_time_idea_3\n- @global.spend_time_idea_4\n- @global.spend_time_idea_5\n- @global.spend_time_idea_6\n- @global.spend_time_idea_7\n- @global.spend_time_idea_8\n- @global.spend_time_idea_9\n- @global.spend_time_idea_10",
-        "type": "template",
-        "note": "The following strings should not be translated: \n     @global.spend_time_idea_1\n     @global.spend_time_idea_2\n     @global.spend_time_idea_3\n     @global.spend_time_idea_4\n     @global.spend_time_idea_5\n     @global.spend_time_idea_6\n     @global.spend_time_idea_7\n     @global.spend_time_idea_8\n     @global.spend_time_idea_9\n     @global.spend_time_idea_10"
     },
     {
         "SourceText": "Let's think of ways to spend one-on-one time with your teen.",
@@ -3501,13 +3569,18 @@
         "type": "template"
     },
     {
+        "SourceText": "Greetings everyone.\n\nToday’s topic is celebration and next steps.\n\nIt has been amazing, it has been wonderful having you on this journey. Today we are celebrating our journey together. \n\nToday we are celebrating all the learnings that we have learned throughout.",
+        "text": "Greetings everyone.\n\nToday’s topic is celebration and next steps.\n\nIt has been amazing, it has been wonderful having you on this journey. Today we are celebrating our journey together. \n\nToday we are celebrating all the learnings that we have learned throughout.",
+        "type": "template"
+    },
+    {
         "SourceText": "Today you will celebrate, look back and look ahead:",
         "text": "Today you will celebrate, look back and look ahead:",
         "type": "template"
     },
     {
-        "SourceText": "- Reflection & discussion\n- Tools: How to support each other\nMEET - CALL - TEXT - SHARE\n- Planning support",
-        "text": "- Reflection & discussion\n- Tools: How to support each other\nMEET - CALL - TEXT - SHARE\n- Planning support",
+        "SourceText": "* Reflection & discussion\n* Tools: How to support each other\nMEET - CALL - TEXT - SHARE\n* Planning support",
+        "text": "* Reflection & discussion\n* Tools: How to support each other\nMEET - CALL - TEXT - SHARE\n* Planning support",
         "type": "template"
     },
     {
@@ -3531,8 +3604,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together:\n- What has changed in your family?\n- What are you proud of that you have done?\n\nRemember to praise and encourage each other!",
-        "text": "Discuss together:\n- What has changed in your family?\n- What are you proud of that you have done?\n\nRemember to praise and encourage each other!",
+        "SourceText": "Discuss together:\n* What has changed in your family?\n* What are you proud of that you have done?\n\nRemember to praise and encourage each other!",
+        "text": "Discuss together:\n* What has changed in your family?\n* What are you proud of that you have done?\n\nRemember to praise and encourage each other!",
         "type": "template"
     },
     {
@@ -3618,24 +3691,23 @@
         "note": "The following strings should not be translated: \n     @global.home_practice_problem_solving\n     @global.w_rules"
     },
     {
-        "SourceText": "Why @global.w_consequence?",
-        "text": "Why @global.w_consequence?",
-        "type": "template",
-        "note": "The string @global.w_consequence should not be translated."
-    },
-    {
         "SourceText": "You can help your teenager to understand that breaking family rules leads to consequences. \n\nBut HOW you do this matters. \n\nGetting consequences right helps teens behave better and makes family life calmer...",
         "text": "You can help your teenager to understand that breaking family rules leads to consequences. \n\nBut HOW you do this matters. \n\nGetting consequences right helps teens behave better and makes family life calmer...",
         "type": "template"
     },
     {
-        "SourceText": "- Story & discussion – that didn’t work…\n- Examples of consequences\n- Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n- Discussion on rules & consequences\n- Story & discussion – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & discussion – that didn’t work…\n- Examples of consequences\n- Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n- Discussion on rules & consequences\n- Story & discussion – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "Greetings, everyone. \n\nToday's topic is calm consequences.\n\nIt is important that when we introduce consequences to our teenagers we involve them, but also important that we are calm when we introduce consequences.\n\nThat will assist in us to agree on introducing calm consequences to our teenagers and our teenagers will easily remember them when they are involved and that will make them responsible.",
+        "text": "Greetings, everyone. \n\nToday's topic is calm consequences.\n\nIt is important that when we introduce consequences to our teenagers we involve them, but also important that we are calm when we introduce consequences.\n\nThat will assist in us to agree on introducing calm consequences to our teenagers and our teenagers will easily remember them when they are involved and that will make them responsible.",
         "type": "template"
     },
     {
-        "SourceText": "- Story & reflection – that didn’t work…\n- Examples of consequences\n- Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n- Discussion on rules & consequences\n- Story & reflection – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & reflection – that didn’t work…\n- Examples of consequences\n- Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n- Discussion on rules & consequences\n- Story & reflection – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "* Story & discussion – that didn’t work…\n* Examples of consequences\n* Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n* Discussion on rules & consequences\n* Story & discussion – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & discussion – that didn’t work…\n* Examples of consequences\n* Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n* Discussion on rules & consequences\n* Story & discussion – that worked!\n* Try it out!\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & reflection – that didn’t work…\n* Examples of consequences\n* Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n* Discussion on rules & consequences\n* Story & reflection – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & reflection – that didn’t work…\n* Examples of consequences\n* Tools: How to give calm consequences\nEXPLAIN - AGREE - ACT\n* Discussion on rules & consequences\n* Story & reflection – that worked!\n* Try it out!\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -3669,8 +3741,8 @@
         "note": "The string @global.w_consequence_teen_boy_1 should not be translated."
     },
     {
-        "SourceText": "Discuss together: \n- Why did giving a consequence this way not work well?",
-        "text": "Discuss together: \n- Why did giving a consequence this way not work well?",
+        "SourceText": "Discuss together: \n* Why did giving a consequence this way not work well?",
+        "text": "Discuss together: \n* Why did giving a consequence this way not work well?",
         "type": "template"
     },
     {
@@ -3773,12 +3845,6 @@
         "note": "The string @global.w_consequence_teen_boy_2 should not be translated."
     },
     {
-        "SourceText": "- @global.positive_consequence_1\n- @global.positive_consequence_2\n- @global.positive_consequence_3\n- @global.positive_consequence_4\n- @global.positive_consequence_5",
-        "text": "- @global.positive_consequence_1\n- @global.positive_consequence_2\n- @global.positive_consequence_3\n- @global.positive_consequence_4\n- @global.positive_consequence_5",
-        "type": "template",
-        "note": "The following strings should not be translated: \n     @global.positive_consequence_1\n     @global.positive_consequence_2\n     @global.positive_consequence_3\n     @global.positive_consequence_4\n     @global.positive_consequence_5"
-    },
-    {
         "SourceText": "How you introduce calm consequences is important. Remember, when you involve your teen, things usually go better!",
         "text": "How you introduce calm consequences is important. Remember, when you involve your teen, things usually go better!",
         "type": "template"
@@ -3829,8 +3895,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together:\n- What rules do your teens often break? \n- What consequence could you use for each specific broken rule? \n\nConsequences should be: \nFAIR (not too harsh)\nIMMEDIATE (do it straight away) \nCONSISTENT (same every time).\n\nPraise and encourage each other – we can give each other strength!",
-        "text": "Discuss together:\n- What rules do your teens often break? \n- What consequence could you use for each specific broken rule? \n\nConsequences should be: \nFAIR (not too harsh)\nIMMEDIATE (do it straight away) \nCONSISTENT (same every time).\n\nPraise and encourage each other – we can give each other strength!",
+        "SourceText": "Discuss together:\n* What rules do your teens often break? \n* What consequence could you use for each specific broken rule? \n\nConsequences should be: \nFAIR (not too harsh)\nIMMEDIATE (do it straight away) \nCONSISTENT (same every time).\n\nPraise and encourage each other – we can give each other strength!",
+        "text": "Discuss together:\n* What rules do your teens often break? \n* What consequence could you use for each specific broken rule? \n\nConsequences should be: \nFAIR (not too harsh)\nIMMEDIATE (do it straight away) \nCONSISTENT (same every time).\n\nPraise and encourage each other – we can give each other strength!",
         "type": "template"
     },
     {
@@ -4013,14 +4079,23 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_crisis?",
-        "text": "Why @global.w_crisis?",
-        "type": "template",
-        "note": "The string @global.w_crisis should not be translated."
-    },
-    {
         "SourceText": "All families experience crises. When we prepare together and know where to get help BEFORE something bad happens, we can overcome any crisis.",
         "text": "All families experience crises. When we prepare together and know where to get help BEFORE something bad happens, we can overcome any crisis.",
+        "type": "template"
+    },
+    {
+        "SourceText": "Greetings, everyone.\n\nToday's topic is dealing with crises.\n\nCrises may occur anywhere. Crises may occur anytime. Therefore, it is important as a family to have plans in place should any family member find themselves in a crisis situation. \n\nIt is important to have plans so that every family member may feel protected. \n\nWhen we are dealing with crises, remember to take a pause, breathe, and keep yourself calm. That will help you to deal with crises better.",
+        "text": "Greetings, everyone.\n\nToday's topic is dealing with crises.\n\nCrises may occur anywhere. Crises may occur anytime. Therefore, it is important as a family to have plans in place should any family member find themselves in a crisis situation. \n\nIt is important to have plans so that every family member may feel protected. \n\nWhen we are dealing with crises, remember to take a pause, breathe, and keep yourself calm. That will help you to deal with crises better.",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & discussion\n* Story & discussion\n* Tools: How to deal with crisis\nBREATHE - LISTEN - THINK\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & discussion\n* Story & discussion\n* Tools: How to deal with crisis\nBREATHE - LISTEN - THINK\n* Try it out!\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & reflection\n* Story & reflection\n* Tools: How to deal with crisis\nBREATHE - LISTEN - THINK\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & reflection\n* Story & reflection\n* Tools: How to deal with crisis\nBREATHE - LISTEN - THINK\n* Try it out!\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -4307,24 +4382,23 @@
         "note": "The following strings should not be translated: \n     @global.home_practice_problem_solving\n     @global.w_praise"
     },
     {
-        "SourceText": "Why @global.w_instruct?",
-        "text": "Why @global.w_instruct?",
-        "type": "template",
-        "note": "The string @global.w_instruct should not be translated."
-    },
-    {
         "SourceText": "Focus on the positive! \n\nTelling our teens what we DO want them to do works better than telling them to STOP doing something.\n\nYou will see the difference.",
         "text": "Focus on the positive! \n\nTelling our teens what we DO want them to do works better than telling them to STOP doing something.\n\nYou will see the difference.",
         "type": "template"
     },
     {
-        "SourceText": "- Thought experiment\n- Story & discussion – that didn’t work…\n- Story & discussion – that worked!\n- Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n- Try it out!\n- Home practice suggestions",
-        "text": "- Thought experiment\n- Story & discussion – that didn’t work…\n- Story & discussion – that worked!\n- Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "Greetings, greetings everyone.\n\nToday our topic is positive instructions. \n\nIt is important to give positive instructions to our children, because when we give them positive instructions they know and understand what we are expecting them to do, and they do it the way we want them to do it. \n\nSo, at the end it keeps everyone happy.",
+        "text": "Greetings, greetings everyone.\n\nToday our topic is positive instructions. \n\nIt is important to give positive instructions to our children, because when we give them positive instructions they know and understand what we are expecting them to do, and they do it the way we want them to do it. \n\nSo, at the end it keeps everyone happy.",
         "type": "template"
     },
     {
-        "SourceText": "- Thought experiment\n- Story & reflection – that didn’t work…\n- Story & reflection – that worked!\n- Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n- Home practice suggestions",
-        "text": "- Thought experiment\n- Story & reflection – that didn’t work…\n- Story & reflection – that worked!\n- Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n- Home practice suggestions",
+        "SourceText": "* Thought experiment\n* Story & discussion – that didn’t work…\n* Story & discussion – that worked!\n* Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n* Try it out!\n* Home practice suggestions",
+        "text": "* Thought experiment\n* Story & discussion – that didn’t work…\n* Story & discussion – that worked!\n* Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n* Try it out!\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Thought experiment\n* Story & reflection – that didn’t work…\n* Story & reflection – that worked!\n* Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n* Home practice suggestions",
+        "text": "* Thought experiment\n* Story & reflection – that didn’t work…\n* Story & reflection – that worked!\n* Tools: How to give positive instructions\nGET REAL - GET POSITIVE - GET CLEAR\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -4377,8 +4451,8 @@
         "note": "The following strings should not be translated: \n     @global.w_instruct_teen_girl\n     @global.w_instruct_female_caregiver"
     },
     {
-        "SourceText": "Discuss together: \n\n- How do you think @global.w_instruct_teen_girl felt about the way @global.w_instruct_female_caregiver responded?  \n- What could @global.w_instruct_female_caregiver have done differently?",
-        "text": "Discuss together: \n\n- How do you think @global.w_instruct_teen_girl felt about the way @global.w_instruct_female_caregiver responded?  \n- What could @global.w_instruct_female_caregiver have done differently?",
+        "SourceText": "Discuss together: \n\n* How do you think @global.w_instruct_teen_girl felt about the way @global.w_instruct_female_caregiver responded?  \n* What could @global.w_instruct_female_caregiver have done differently?",
+        "text": "Discuss together: \n\n* How do you think @global.w_instruct_teen_girl felt about the way @global.w_instruct_female_caregiver responded?  \n* What could @global.w_instruct_female_caregiver have done differently?",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_instruct_teen_girl\n     @global.w_instruct_female_caregiver\n     @global.w_instruct_female_caregiver"
     },
@@ -4389,8 +4463,8 @@
         "note": "The string @global.w_instruct_female_caregiver should not be translated."
     },
     {
-        "SourceText": "- Said something nice first \n- Spoken to @global.w_instruct_teen_girl in a calm voice \n- Told @global.w_instruct_teen_girl what she wants her to do",
-        "text": "- Said something nice first \n- Spoken to @global.w_instruct_teen_girl in a calm voice \n- Told @global.w_instruct_teen_girl what she wants her to do",
+        "SourceText": "* Said something nice first \n* Spoken to @global.w_instruct_teen_girl in a calm voice \n* Told @global.w_instruct_teen_girl what she wants her to do",
+        "text": "* Said something nice first \n* Spoken to @global.w_instruct_teen_girl in a calm voice \n* Told @global.w_instruct_teen_girl what she wants her to do",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_instruct_teen_girl\n     @global.w_instruct_teen_girl"
     },
@@ -4451,8 +4525,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together: \n\n- How did @global.w_instruct_teen_girl and @global.w_instruct_female_caregiver feel now?\n- Why do you think the situation went better for @global.w_instruct_female_caregiver this time?",
-        "text": "Discuss together: \n\n- How did @global.w_instruct_teen_girl and @global.w_instruct_female_caregiver feel now?\n- Why do you think the situation went better for @global.w_instruct_female_caregiver this time?",
+        "SourceText": "Discuss together: \n\n* How did @global.w_instruct_teen_girl and @global.w_instruct_female_caregiver feel now?\n* Why do you think the situation went better for @global.w_instruct_female_caregiver this time?",
+        "text": "Discuss together: \n\n* How did @global.w_instruct_teen_girl and @global.w_instruct_female_caregiver feel now?\n* Why do you think the situation went better for @global.w_instruct_female_caregiver this time?",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_instruct_teen_girl\n     @global.w_instruct_female_caregiver\n     @global.w_instruct_female_caregiver"
     },
@@ -4462,8 +4536,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- @global.w_instruct_teen_girl felt respected and loved by her @global.w_instruct_female_caregiver\n- @global.w_instruct_female_caregiver was able to stay calm  \n- @global.w_instruct_female_caregiver  kept a positive attitude",
-        "text": "- @global.w_instruct_teen_girl felt respected and loved by her @global.w_instruct_female_caregiver\n- @global.w_instruct_female_caregiver was able to stay calm  \n- @global.w_instruct_female_caregiver  kept a positive attitude",
+        "SourceText": "* @global.w_instruct_teen_girl felt respected and loved by her @global.w_instruct_female_caregiver\n* @global.w_instruct_female_caregiver was able to stay calm  \n* @global.w_instruct_female_caregiver  kept a positive attitude",
+        "text": "* @global.w_instruct_teen_girl felt respected and loved by her @global.w_instruct_female_caregiver\n* @global.w_instruct_female_caregiver was able to stay calm  \n* @global.w_instruct_female_caregiver  kept a positive attitude",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_instruct_teen_girl\n     @global.w_instruct_female_caregiver\n     @global.w_instruct_female_caregiver\n     @global.w_instruct_female_caregiver"
     },
@@ -4535,8 +4609,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Choose two people from your group:\n- One person pretends to be a teenager\n- The other pretends to be the teenager’s parent\n- “Parent”: Give your “teen” a positive instruction with encouragement and praise\n- “Teen”: Respond as you think a teen may respond to this \n\nDiscuss together how that went:\n- How did this make you feel as “parent” and as “teen”?\n- Could you do anything better?\n\nGive everyone a chance to be the “parent” and the “teen” if you can. Practice brings success!",
-        "text": "Choose two people from your group:\n- One person pretends to be a teenager\n- The other pretends to be the teenager’s parent\n- “Parent”: Give your “teen” a positive instruction with encouragement and praise\n- “Teen”: Respond as you think a teen may respond to this \n\nDiscuss together how that went:\n- How did this make you feel as “parent” and as “teen”?\n- Could you do anything better?\n\nGive everyone a chance to be the “parent” and the “teen” if you can. Practice brings success!",
+        "SourceText": "Choose two people from your group:\n* One person pretends to be a teenager\n* The other pretends to be the teenager’s parent\n* “Parent”: Give your “teen” a positive instruction with encouragement and praise\n* “Teen”: Respond as you think a teen may respond to this \n\nDiscuss together how that went:\n* How did this make you feel as “parent” and as “teen”?\n* Could you do anything better?\n\nGive everyone a chance to be the “parent” and the “teen” if you can. Practice brings success!",
+        "text": "Choose two people from your group:\n* One person pretends to be a teenager\n* The other pretends to be the teenager’s parent\n* “Parent”: Give your “teen” a positive instruction with encouragement and praise\n* “Teen”: Respond as you think a teen may respond to this \n\nDiscuss together how that went:\n* How did this make you feel as “parent” and as “teen”?\n* Could you do anything better?\n\nGive everyone a chance to be the “parent” and the “teen” if you can. Practice brings success!",
         "type": "template"
     },
     {
@@ -4545,8 +4619,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- I like your music. Could you turn it down during dinner so that we can talk? Thank you – I really appreciate it. \n- That’s great music. Who is the singer? Please turn the music off when you come in the house. You can play it in your room quietly if you want. Thank you!",
-        "text": "- I like your music. Could you turn it down during dinner so that we can talk? Thank you – I really appreciate it. \n- That’s great music. Who is the singer? Please turn the music off when you come in the house. You can play it in your room quietly if you want. Thank you!",
+        "SourceText": "* I like your music. Could you turn it down during dinner so that we can talk? Thank you – I really appreciate it. \n* That’s great music. Who is the singer? Please turn the music off when you come in the house. You can play it in your room quietly if you want. Thank you!",
+        "text": "* I like your music. Could you turn it down during dinner so that we can talk? Thank you – I really appreciate it. \n* That’s great music. Who is the singer? Please turn the music off when you come in the house. You can play it in your room quietly if you want. Thank you!",
         "type": "template"
     },
     {
@@ -4576,19 +4650,18 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_money?",
-        "text": "Why @global.w_money?",
-        "type": "template",
-        "note": "The string @global.w_money should not be translated."
-    },
-    {
         "SourceText": "Many families are stressed about money, especially if teens keep asking for things! \n\nWhen we make a budget together, we can agree how to spend AND save to prevent stress and work towards our family’s goals.",
         "text": "Many families are stressed about money, especially if teens keep asking for things! \n\nWhen we make a budget together, we can agree how to spend AND save to prevent stress and work towards our family’s goals.",
         "type": "template"
     },
     {
-        "SourceText": "- Story – that didn’t work… \n- Budgeting exercise\n- Story & discussion – that worked!\n- Story & discussion – that didn’t work…\n- Discussion on saving options\n- Saving exercise\n- Tools: How to budget & save\nTHINK - CHOOSE - BUILD - PLAN\n- Home practice suggestions",
-        "text": "- Story – that didn’t work… \n- Budgeting exercise\n- Story & discussion – that worked!\n- Story & discussion – that didn’t work…\n- Discussion on saving options\n- Saving exercise\n- Tools: How to budget & save\nTHINK - CHOOSE - BUILD - PLAN\n- Home practice suggestions",
+        "SourceText": "Greetings, everyone. \n\nToday's topic is family budgeting. \n\nIt is important to create a budget, but it is even more important to create a budget involving the entire family. \n\nDoing it together helps increase the level of understanding of how you spend money as a family and how much you save for the family, and you can even come up with plans of how you can save as a family.",
+        "text": "Greetings, everyone. \n\nToday's topic is family budgeting. \n\nIt is important to create a budget, but it is even more important to create a budget involving the entire family. \n\nDoing it together helps increase the level of understanding of how you spend money as a family and how much you save for the family, and you can even come up with plans of how you can save as a family.",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story – that didn’t work… \n* Budgeting exercise\n* Story & discussion – that worked!\n* Story & discussion – that didn’t work…\n* Discussion on saving options\n* Saving exercise\n* Tools: How to budget & save\nTHINK - CHOOSE - BUILD - PLAN\n* Home practice suggestions",
+        "text": "* Story – that didn’t work… \n* Budgeting exercise\n* Story & discussion – that worked!\n* Story & discussion – that didn’t work…\n* Discussion on saving options\n* Saving exercise\n* Tools: How to budget & save\nTHINK - CHOOSE - BUILD - PLAN\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -4610,15 +4683,15 @@
         "note": "The string @global.w_money_grandma should not be translated."
     },
     {
+        "SourceText": "There are four steps for doing a family budget: \n\nStep 1: THINK\nStep 2: CHOOSE\nStep 3: BUILD\nStep 4: PLAN\n\nLet’s go through the steps together. You need:\n\n- Papers (or old newspaper or a cardboard box) and pens\n- Stones or beans or anything with lots of bits to represent money\n \nTake a minute to get these things before we start with the first step.",
+        "text": "There are four steps for doing a family budget: \n\nStep 1: THINK\nStep 2: CHOOSE\nStep 3: BUILD\nStep 4: PLAN\n\nLet’s go through the steps together. You need:\n\n- Papers (or old newspaper or a cardboard box) and pens\n- Stones or beans or anything with lots of bits to represent money\n \nTake a minute to get these things before we start with the first step.",
+        "type": "template"
+    },
+    {
         "SourceText": "A family budget can help @global.w_money_grandma - and YOU!",
         "text": "A family budget can help @global.w_money_grandma - and YOU!",
         "type": "template",
         "note": "The string @global.w_money_grandma should not be translated."
-    },
-    {
-        "SourceText": "There are four steps for doing a family budget: \n\nStep 1: THINK\nStep 2: CHOOSE\nStep 3: BUILD\nStep 4: PLAN\n\nLet’s go through the steps together. You need:\n\n- Papers (or old newspaper or a cardboard box) and pens\n- Stones or beans or anything with lots of bits to represent money\n \nTake a minute to get these things before we start with the first step.",
-        "text": "There are four steps for doing a family budget: \n\nStep 1: THINK\nStep 2: CHOOSE\nStep 3: BUILD\nStep 4: PLAN\n\nLet’s go through the steps together. You need:\n\n- Papers (or old newspaper or a cardboard box) and pens\n- Stones or beans or anything with lots of bits to represent money\n \nTake a minute to get these things before we start with the first step.",
-        "type": "template"
     },
     {
         "SourceText": "There are four steps for doing a family budget: \n\nStep 1: THINK\nStep 2: CHOOSE\nStep 3: BUILD\nStep 4: PLAN\n\nLet’s go through the steps together.",
@@ -4626,8 +4699,8 @@
         "type": "template"
     },
     {
-        "SourceText": "You need: \n- Papers (or old newspaper or a cardboard box) and pens \n- Stones or beans or anything with lots of bits to represent money \n\nTake a minute to get these things before we start with the first step.",
-        "text": "You need: \n- Papers (or old newspaper or a cardboard box) and pens \n- Stones or beans or anything with lots of bits to represent money \n\nTake a minute to get these things before we start with the first step.",
+        "SourceText": "You need: \n* Papers (or old newspaper or a cardboard box) and pens \n* Stones or beans or anything with lots of bits to represent money \n\nTake a minute to get these things before we start with the first step.",
+        "text": "You need: \n* Papers (or old newspaper or a cardboard box) and pens \n* Stones or beans or anything with lots of bits to represent money \n\nTake a minute to get these things before we start with the first step.",
         "type": "template"
     },
     {
@@ -4636,8 +4709,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n- Draw pictures of all the things that you and your family spend money on each month. \n- Write next to each picture how much each thing costs each month. (There is no need to share the numbers if you don’t want to.)\n- Add up how much money you have to spend each month.",
-        "text": "- Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n- Draw pictures of all the things that you and your family spend money on each month. \n- Write next to each picture how much each thing costs each month. (There is no need to share the numbers if you don’t want to.)\n- Add up how much money you have to spend each month.",
+        "SourceText": "* Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n* Draw pictures of all the things that you and your family spend money on each month. \n* Write next to each picture how much each thing costs each month. (There is no need to share the numbers if you don’t want to.)\n* Add up how much money you have to spend each month.",
+        "text": "* Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n* Draw pictures of all the things that you and your family spend money on each month. \n* Write next to each picture how much each thing costs each month. (There is no need to share the numbers if you don’t want to.)\n* Add up how much money you have to spend each month.",
         "type": "template"
     },
     {
@@ -4646,8 +4719,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- food \n- water & electricity \n- clothing \n- accounts \n- TV subscription \n- toiletries \n- salon \n- airtime \n- school fees \n- transport \n- insurance/policies \n- medication \n- entertainment/sports \n- rent \n- loans \n- church",
-        "text": "- food \n- water & electricity \n- clothing \n- accounts \n- TV subscription \n- toiletries \n- salon \n- airtime \n- school fees \n- transport \n- insurance/policies \n- medication \n- entertainment/sports \n- rent \n- loans \n- church",
+        "SourceText": "* food \n* water & electricity \n* clothing \n* accounts \n* TV subscription \n* toiletries \n* salon \n* airtime \n* school fees \n* transport \n* insurance/policies \n* medication \n* entertainment/sports \n* rent \n* loans \n* church",
+        "text": "* food \n* water & electricity \n* clothing \n* accounts \n* TV subscription \n* toiletries \n* salon \n* airtime \n* school fees \n* transport \n* insurance/policies \n* medication \n* entertainment/sports \n* rent \n* loans \n* church",
         "type": "template"
     },
     {
@@ -4656,8 +4729,8 @@
         "type": "template"
     },
     {
-        "SourceText": "People often don’t see things in the same way. When we talk about our needs and wants, we understand each other better and can make good choices together on how to spend our money.\n\nLook at your lists of things you spend money on and discuss:\n\n- Which are NEEDS that you can’t live without? Why?\n- Which are WANTS which are nice to have but not essential? Why? \n- Which things could you try to spend less money on as a family?",
-        "text": "People often don’t see things in the same way. When we talk about our needs and wants, we understand each other better and can make good choices together on how to spend our money.\n\nLook at your lists of things you spend money on and discuss:\n\n- Which are NEEDS that you can’t live without? Why?\n- Which are WANTS which are nice to have but not essential? Why? \n- Which things could you try to spend less money on as a family?",
+        "SourceText": "People often don’t see things in the same way. When we talk about our needs and wants, we understand each other better and can make good choices together on how to spend our money.\n\nLook at your lists of things you spend money on and discuss:\n* Which are NEEDS that you can’t live without? Why?\n* Which are WANTS which are nice to have but not essential? Why? \n* Which things could you try to spend less money on as a family?",
+        "text": "People often don’t see things in the same way. When we talk about our needs and wants, we understand each other better and can make good choices together on how to spend our money.\n\nLook at your lists of things you spend money on and discuss:\n* Which are NEEDS that you can’t live without? Why?\n* Which are WANTS which are nice to have but not essential? Why? \n* Which things could you try to spend less money on as a family?",
         "type": "template"
     },
     {
@@ -4666,8 +4739,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Look at your list of things you spend money on and choose:\n\n- Which are NEEDS that you can’t live without? Why?\n- Which are WANTS which are nice to have but not essential? Why? \n- Which things could you try to spend less money on?",
-        "text": "Look at your list of things you spend money on and choose:\n\n- Which are NEEDS that you can’t live without? Why?\n- Which are WANTS which are nice to have but not essential? Why? \n- Which things could you try to spend less money on?",
+        "SourceText": "Look at your list of things you spend money on and choose:\n* Which are NEEDS that you can’t live without? Why?\n* Which are WANTS which are nice to have but not essential? Why? \n* Which things could you try to spend less money on?",
+        "text": "Look at your list of things you spend money on and choose:\n* Which are NEEDS that you can’t live without? Why?\n* Which are WANTS which are nice to have but not essential? Why? \n* Which things could you try to spend less money on?",
         "type": "template"
     },
     {
@@ -4681,8 +4754,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- One person will volunteer to share his/her list (If no one volunteers you can make a new list together) \n- Take roles - some will be adults, some will be teens. \n- Decide what your income is for the month.\n- Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n- Decide together what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
-        "text": "- One person will volunteer to share his/her list (If no one volunteers you can make a new list together) \n- Take roles - some will be adults, some will be teens. \n- Decide what your income is for the month.\n- Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n- Decide together what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
+        "SourceText": "* One person will volunteer to share his/her list (If no one volunteers you can make a new list together) \n* Take roles - some will be adults, some will be teens. \n* Decide what your income is for the month.\n* Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n* Decide together what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
+        "text": "* One person will volunteer to share his/her list (If no one volunteers you can make a new list together) \n* Take roles - some will be adults, some will be teens. \n* Decide what your income is for the month.\n* Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n* Decide together what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
         "type": "template"
     },
     {
@@ -4691,8 +4764,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Write down what your income is for the month.\n- Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n- Decide what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
-        "text": "- Write down what your income is for the month.\n- Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n- Decide what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
+        "SourceText": "* Write down what your income is for the month.\n* Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n* Decide what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
+        "text": "* Write down what your income is for the month.\n* Take some stones or beans or anything with lots of bits - this is your income for the month. \n(For example: If your income is $100, and you have 20 beans, each bean is $5.  \n* Decide what you will spend on what, and put the stones/objects on that image. \n\nNot sure about your decisions? Having trouble deciding between \"needs\" and \"wants\"? That’s totally fine!",
         "type": "template"
     },
     {
@@ -4754,12 +4827,6 @@
         "type": "template"
     },
     {
-        "SourceText": "- @global.saving_goal_1\n- @global.saving_goal_2\n- @global.saving_goal_3\n- @global.saving_goal_4",
-        "text": "- @global.saving_goal_1\n- @global.saving_goal_2\n- @global.saving_goal_3\n- @global.saving_goal_4",
-        "type": "template",
-        "note": "The following strings should not be translated: \n     @global.saving_goal_1\n     @global.saving_goal_2\n     @global.saving_goal_3\n     @global.saving_goal_4"
-    },
-    {
         "SourceText": "Saving is important for one more reason: emergencies! @global.w_money_grandma also learned this along the way:",
         "text": "Saving is important for one more reason: emergencies! @global.w_money_grandma also learned this along the way:",
         "type": "template",
@@ -4808,8 +4875,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together: \n- In which different ways can we save?  \n- What are the advantages and disadvantages of each savings option? \n\nUnderstanding each option well will help you to decide what is the best saving option for your family.  \n\nWhatever savings plan you choose, it will really help your family move forward!",
-        "text": "Discuss together: \n- In which different ways can we save?  \n- What are the advantages and disadvantages of each savings option? \n\nUnderstanding each option well will help you to decide what is the best saving option for your family.  \n\nWhatever savings plan you choose, it will really help your family move forward!",
+        "SourceText": "Discuss together: \n* In which different ways can we save?  \n* What are the advantages and disadvantages of each savings option? \n\nUnderstanding each option well will help you to decide what is the best saving option for your family.  \n\nWhatever savings plan you choose, it will really help your family move forward!",
+        "text": "Discuss together: \n* In which different ways can we save?  \n* What are the advantages and disadvantages of each savings option? \n\nUnderstanding each option well will help you to decide what is the best saving option for your family.  \n\nWhatever savings plan you choose, it will really help your family move forward!",
         "type": "template"
     },
     {
@@ -4833,18 +4900,23 @@
         "type": "template"
     },
     {
-        "SourceText": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your family deserves a praise, don’t you?",
-        "text": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your family deserves a praise, don’t you?",
-        "type": "template"
-    },
-    {
         "SourceText": "Plan how you can save money, so you can deal with emergencies and realise your family goals!",
         "text": "Plan how you can save money, so you can deal with emergencies and realise your family goals!",
         "type": "template"
     },
     {
-        "SourceText": "If you can save even a tiny amount for the future or emergency - it can make a big difference over time. \n- Add a circle called “emergencies”.\n- Add a circle called “family goals”.\n- Now try to move your money around so you can save a bit every month for each of these.",
-        "text": "If you can save even a tiny amount for the future or emergency - it can make a big difference over time. \n- Add a circle called “emergencies”.\n- Add a circle called “family goals”.\n- Now try to move your money around so you can save a bit every month for each of these.",
+        "SourceText": "If you can save even a tiny amount for the future or emergency - it can make a big difference over time. \n* Add a circle called “emergencies”.\n* Add a circle called “family goals”.\n* Now try to move your money around so you can save a bit every month for each of these.",
+        "text": "If you can save even a tiny amount for the future or emergency - it can make a big difference over time. \n* Add a circle called “emergencies”.\n* Add a circle called “family goals”.\n* Now try to move your money around so you can save a bit every month for each of these.",
+        "type": "template"
+    },
+    {
+        "SourceText": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your group deserves a praise, don’t you?",
+        "text": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your group deserves a praise, don’t you?",
+        "type": "template"
+    },
+    {
+        "SourceText": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your family deserves a praise, don’t you?",
+        "text": "CONGRATULATIONS!!! You’ve made your family budget – and using it will make a huge difference for you. I think every person in your family deserves a praise, don’t you?",
         "type": "template"
     },
     {
@@ -4984,15 +5056,9 @@
         "type": "template"
     },
     {
-        "SourceText": "Think about how your home activities went this week. \n\nTake turns to discuss:\n\n- What went well and what was a problem?\n- What solutions can you think of together?\n- Pick one solution and try it later with your teen! \n\n(Or you can even practice it now  so it will be easier later!)",
-        "text": "Think about how your home activities went this week. \n\nTake turns to discuss:\n\n- What went well and what was a problem?\n- What solutions can you think of together?\n- Pick one solution and try it later with your teen! \n\n(Or you can even practice it now  so it will be easier later!)",
+        "SourceText": "Think about how your home activities went this week. \n\nTake turns to discuss:\n\n* What went well and what was a problem?\n* What solutions can you think of together?\n* Pick one solution and try it later with your teen! \n\n(Or you can even practice it now  so it will be easier later!)",
+        "text": "Think about how your home activities went this week. \n\nTake turns to discuss:\n\n* What went well and what was a problem?\n* What solutions can you think of together?\n* Pick one solution and try it later with your teen! \n\n(Or you can even practice it now  so it will be easier later!)",
         "type": "template"
-    },
-    {
-        "SourceText": "Why @global.w_praise?",
-        "text": "Why @global.w_praise?",
-        "type": "template",
-        "note": "The string @global.w_praise should not be translated."
     },
     {
         "SourceText": "Praise is a powerful parenting skill.\n\nIf we praise our teens when they do something well, we will see them do more and more positive things!",
@@ -5000,18 +5066,23 @@
         "type": "template"
     },
     {
-        "SourceText": "- Effects of praise\n- Story & discussion – that worked!\n- Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n- Try it out!\n- Home practice suggestions",
-        "text": "- Effects of praise\n- Story & discussion – that worked!\n- Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "Greetings everyone. \n\nOur topic today is about praise. \n\nIt is good to praise our children when they've done good because when we do that, they will do more of that good behavior we want to see. \n\nAnd let's not forget to praise ourselves when we do good too!",
+        "text": "Greetings everyone. \n\nOur topic today is about praise. \n\nIt is good to praise our children when they've done good because when we do that, they will do more of that good behavior we want to see. \n\nAnd let's not forget to praise ourselves when we do good too!",
         "type": "template"
     },
     {
-        "SourceText": "- Effects of praise\n- Story & reflection – that worked!\n- Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n- Home practice suggestions",
-        "text": "- Effects of praise\n- Story & reflection – that worked!\n- Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n- Home practice suggestions",
+        "SourceText": "* Effects of praise\n* Story & discussion – that worked!\n* Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n* Try it out!\n* Home practice suggestions",
+        "text": "* Effects of praise\n* Story & discussion – that worked!\n* Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n* Try it out!\n* Home practice suggestions",
         "type": "template"
     },
     {
-        "SourceText": "Share with each other:\n\n- When last did someone thank you or say you did something great? \n- How did it make you feel? \n- How does it feel if you are not thanked or praised for what you do? \n\nWe usually don’t get thanked or praised enough as parents. Maybe you can give your teens the right example and praise them first when they do something well!",
-        "text": "Share with each other:\n\n- When last did someone thank you or say you did something great? \n- How did it make you feel? \n- How does it feel if you are not thanked or praised for what you do? \n\nWe usually don’t get thanked or praised enough as parents. Maybe you can give your teens the right example and praise them first when they do something well!",
+        "SourceText": "* Effects of praise\n* Story & reflection – that worked!\n* Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n* Home practice suggestions",
+        "text": "* Effects of praise\n* Story & reflection – that worked!\n* Tools: How to praise\nSEE IT - SAY IT - REPEAT IT\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "Share with each other:\n\n* When last did someone thank you or say you did something great? \n* How did it make you feel? \n* How does it feel if you are not thanked or praised for what you do? \n\nWe usually don’t get thanked or praised enough as parents. Maybe you can give your teens the right example and praise them first when they do something well!",
+        "text": "Share with each other:\n\n* When last did someone thank you or say you did something great? \n* How did it make you feel? \n* How does it feel if you are not thanked or praised for what you do? \n\nWe usually don’t get thanked or praised enough as parents. Maybe you can give your teens the right example and praise them first when they do something well!",
         "type": "template"
     },
     {
@@ -5068,8 +5139,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together:\n\n- How did praise make @global.w_praise_female_caregiver_name's teens feel?\n- Why did she praise them?",
-        "text": "Discuss together:\n\n- How did praise make @global.w_praise_female_caregiver_name's teens feel?\n- Why did she praise them?",
+        "SourceText": "Discuss together:\n\n* How did praise make @global.w_praise_female_caregiver_name's teens feel?\n* Why did she praise them?",
+        "text": "Discuss together:\n\n* How did praise make @global.w_praise_female_caregiver_name's teens feel?\n* Why did she praise them?",
         "type": "template",
         "note": "The string @global.w_praise_female_caregiver_name should not be translated."
     },
@@ -5080,8 +5151,8 @@
         "note": "The string @global.w_praise_female_caregiver_name should not be translated."
     },
     {
-        "SourceText": "- To get them to do it more often\n- To help her finish her work \n- To make them feel good \n- To make herself feel good",
-        "text": "- To get them to do it more often\n- To help her finish her work \n- To make them feel good \n- To make herself feel good",
+        "SourceText": "* To get them to do it more often\n* To help her finish her work \n* To make them feel good \n* To make herself feel good",
+        "text": "* To get them to do it more often\n* To help her finish her work \n* To make them feel good \n* To make herself feel good",
         "type": "template"
     },
     {
@@ -5167,8 +5238,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Share with each other: \n\n- What can you praise your teen for? \n- What has someone else done well during this workshop? Tell them!\n- How did it make you feel to praise someone?\n- How did it make you feel to be praised?",
-        "text": "Share with each other: \n\n- What can you praise your teen for? \n- What has someone else done well during this workshop? Tell them!\n- How did it make you feel to praise someone?\n- How did it make you feel to be praised?",
+        "SourceText": "Share with each other: \n\n* What can you praise your teen for? \n* What has someone else done well during this workshop? Tell them!\n* How did it make you feel to praise someone?\n* How did it make you feel to be praised?",
+        "text": "Share with each other: \n\n* What can you praise your teen for? \n* What has someone else done well during this workshop? Tell them!\n* How did it make you feel to praise someone?\n* How did it make you feel to be praised?",
         "type": "template"
     },
     {
@@ -5177,8 +5248,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Being kind to someone \n- Cleaning their room \n- Joining a family meal \n- Greeting other family members \n- Looking after siblings \n- Coming home in time \n- Showing thoughtfulness \n- Saying 'please' or 'thank you' \n- Going to school  \n- Doing chores or schoolwork  \n- Getting through mealtime peacefully",
-        "text": "- Being kind to someone \n- Cleaning their room \n- Joining a family meal \n- Greeting other family members \n- Looking after siblings \n- Coming home in time \n- Showing thoughtfulness \n- Saying 'please' or 'thank you' \n- Going to school  \n- Doing chores or schoolwork  \n- Getting through mealtime peacefully",
+        "SourceText": "* Being kind to someone \n* Cleaning their room \n* Joining a family meal \n* Greeting other family members \n* Looking after siblings \n* Coming home in time \n* Showing thoughtfulness \n* Saying 'please' or 'thank you' \n* Going to school  \n* Doing chores or schoolwork  \n* Getting through mealtime peacefully",
+        "text": "* Being kind to someone \n* Cleaning their room \n* Joining a family meal \n* Greeting other family members \n* Looking after siblings \n* Coming home in time \n* Showing thoughtfulness \n* Saying 'please' or 'thank you' \n* Going to school  \n* Doing chores or schoolwork  \n* Getting through mealtime peacefully",
         "type": "template"
     },
     {
@@ -5213,24 +5284,23 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_rules?",
-        "text": "Why @global.w_rules?",
-        "type": "template",
-        "note": "The string @global.w_rules should not be translated."
-    },
-    {
         "SourceText": "Rules help teens understand what is expected from them. \n\nTeens are more likely to follow rules if you create the rules WITH your teen and praise them for it!",
         "text": "Rules help teens understand what is expected from them. \n\nTeens are more likely to follow rules if you create the rules WITH your teen and praise them for it!",
         "type": "template"
     },
     {
-        "SourceText": "- Story & discussion – that didn’t work… \n- Story & discussion – that worked!\n- Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n- Online safety story – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & discussion – that didn’t work… \n- Story & discussion – that worked!\n- Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n- Online safety story – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "Greetings, everyone. \n\nToday's topic is rules. \n\nRules promote peace within the household and promote understanding amongst family members. \n\nRules promote responsibilities for each family member; therefore, it is important to have family rules. \n\nA household with family rules lives in peace.",
+        "text": "Greetings, everyone. \n\nToday's topic is rules. \n\nRules promote peace within the household and promote understanding amongst family members. \n\nRules promote responsibilities for each family member; therefore, it is important to have family rules. \n\nA household with family rules lives in peace.",
         "type": "template"
     },
     {
-        "SourceText": "- Story & reflection – that didn’t work… \n- Story & reflection – that worked!\n- Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n- Online safety story – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & reflection – that didn’t work… \n- Story & reflection – that worked!\n- Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n- Online safety story – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "* Story & discussion – that didn’t work… \n* Story & discussion – that worked!\n* Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n* Online safety story – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & discussion – that didn’t work… \n* Story & discussion – that worked!\n* Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n* Online safety story – that worked!\n* Try it out!\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & reflection – that didn’t work… \n* Story & reflection – that worked!\n* Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n* Online safety story – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & reflection – that didn’t work… \n* Story & reflection – that worked!\n* Tools: How to create rules\nTEAM RULES - REAL RULES - PRAISE RULES!\n* Online safety story – that worked!\n* Try it out!\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -5293,8 +5363,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- They discussed the reasons behind the rule \n- @global.w_rules_female_caregiver_1 listened to @global.w_rules_teen_boy’s suggestions \n- The rule was clear, specific and fair \n- @global.w_rules_female_caregiver_1 praised @global.w_rules_teen_boy for helping to make the rule",
-        "text": "- They discussed the reasons behind the rule \n- @global.w_rules_female_caregiver_1 listened to @global.w_rules_teen_boy’s suggestions \n- The rule was clear, specific and fair \n- @global.w_rules_female_caregiver_1 praised @global.w_rules_teen_boy for helping to make the rule",
+        "SourceText": "* They discussed the reasons behind the rule \n* @global.w_rules_female_caregiver_1 listened to @global.w_rules_teen_boy’s suggestions \n* The rule was clear, specific and fair \n* @global.w_rules_female_caregiver_1 praised @global.w_rules_teen_boy for helping to make the rule",
+        "text": "* They discussed the reasons behind the rule \n* @global.w_rules_female_caregiver_1 listened to @global.w_rules_teen_boy’s suggestions \n* The rule was clear, specific and fair \n* @global.w_rules_female_caregiver_1 praised @global.w_rules_teen_boy for helping to make the rule",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_rules_female_caregiver_1\n     @global.w_rules_teen_boy\n     @global.w_rules_female_caregiver_1\n     @global.w_rules_teen_boy"
     },
@@ -5305,8 +5375,8 @@
         "note": "The following strings should not be translated: \n     @global.w_rules_teen_boy\n     @global.w_rules_female_caregiver_1"
     },
     {
-        "SourceText": "- She praised him\n- She rewarded him when he followed the rule",
-        "text": "- She praised him\n- She rewarded him when he followed the rule",
+        "SourceText": "* She praised him\n* She rewarded him when he followed the rule",
+        "text": "* She praised him\n* She rewarded him when he followed the rule",
         "type": "template"
     },
     {
@@ -5436,8 +5506,8 @@
         "note": "The following strings should not be translated: \n     @global.w_rules_female_caregiver_2\n     @global.w_rules_teen_girl"
     },
     {
-        "SourceText": "- What is one important rule you’d each like to make with your teenager? \n- What do you think your teen will think about that rule? \n\nRemember, make rules specific and realistic!",
-        "text": "- What is one important rule you’d each like to make with your teenager? \n- What do you think your teen will think about that rule? \n\nRemember, make rules specific and realistic!",
+        "SourceText": "* What is one important rule you’d each like to make with your teenager? \n* What do you think your teen will think about that rule? \n\nRemember, make rules specific and realistic!",
+        "text": "* What is one important rule you’d each like to make with your teenager? \n* What do you think your teen will think about that rule? \n\nRemember, make rules specific and realistic!",
         "type": "template"
     },
     {
@@ -5446,8 +5516,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Teen can play outside after finishing homework\n- All family members are eating dinner together\n- Teen 1 does dishes on Sunday and Monday, Teen 2 on Tuesday and Wednesday\n- We speak to each other politely and nicely\n- When listening to music you need to use earphones",
-        "text": "- Teen can play outside after finishing homework\n- All family members are eating dinner together\n- Teen 1 does dishes on Sunday and Monday, Teen 2 on Tuesday and Wednesday\n- We speak to each other politely and nicely\n- When listening to music you need to use earphones",
+        "SourceText": "* Teen can play outside after finishing homework\n* All family members are eating dinner together\n* Teen 1 does dishes on Sunday and Monday, Teen 2 on Tuesday and Wednesday\n* We speak to each other politely and nicely\n* When listening to music you need to use earphones",
+        "text": "* Teen can play outside after finishing homework\n* All family members are eating dinner together\n* Teen 1 does dishes on Sunday and Monday, Teen 2 on Tuesday and Wednesday\n* We speak to each other politely and nicely\n* When listening to music you need to use earphones",
         "type": "template"
     },
     {
@@ -5492,24 +5562,23 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_safe?",
-        "text": "Why @global.w_safe?",
-        "type": "template",
-        "note": "The string @global.w_safe should not be translated."
-    },
-    {
         "SourceText": "Teens can spend a lot of time outside the house or online, where it is harder for us to keep them safe. \n\nTalking together about safe and unsafe places, and how to prevent problems, really helps!",
         "text": "Teens can spend a lot of time outside the house or online, where it is harder for us to keep them safe. \n\nTalking together about safe and unsafe places, and how to prevent problems, really helps!",
         "type": "template"
     },
     {
-        "SourceText": "- Story & discussion – that worked!\n- Story & discussion – that worked!\n- Mapping exercise\n- Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n- Home practice suggestions",
-        "text": "- Story & discussion – that worked!\n- Story & discussion – that worked!\n- Mapping exercise\n- Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n- Home practice suggestions",
+        "SourceText": "Greetings, everyone. \n\nToday our topic is teen safety. \n\nIt is our responsibility as parents to keep our teens safe at all times. We need to ensure that our teenagers are safe in the communities that we live in. It is our responsibility that we make them aware of the safe and unsafe areas in the communities. \n\nIt is also our responsibility to ensure that they understand the dangers that they might be exposed to when they are online. That way our teenagers will be responsible and be able to make right decisions to keep themselves safe too.",
+        "text": "Greetings, everyone. \n\nToday our topic is teen safety. \n\nIt is our responsibility as parents to keep our teens safe at all times. We need to ensure that our teenagers are safe in the communities that we live in. It is our responsibility that we make them aware of the safe and unsafe areas in the communities. \n\nIt is also our responsibility to ensure that they understand the dangers that they might be exposed to when they are online. That way our teenagers will be responsible and be able to make right decisions to keep themselves safe too.",
         "type": "template"
     },
     {
-        "SourceText": "- Story & reflection – that worked!\n- Story & reflection – that worked!\n- Mapping exercise\n- Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n- Home practice suggestions",
-        "text": "- Story & reflection – that worked!\n- Story & reflection – that worked!\n- Mapping exercise\n- Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n- Home practice suggestions",
+        "SourceText": "* Story & discussion – that worked!\n* Story & discussion – that worked!\n* Mapping exercise\n* Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n* Home practice suggestions",
+        "text": "* Story & discussion – that worked!\n* Story & discussion – that worked!\n* Mapping exercise\n* Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & reflection – that worked!\n* Story & reflection – that worked!\n* Mapping exercise\n* Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n* Home practice suggestions",
+        "text": "* Story & reflection – that worked!\n* Story & reflection – that worked!\n* Mapping exercise\n* Tools: How to keep your teen safe\nMAPS - RULES - AMNESTY\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -5571,8 +5640,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- The man in the car was pressuring  @global.w_safe_teen_girl_1 with gifts \n- @global.w_safe_teen_girl_1's friend was encouraging her  \n- Going with an older man puts @global.w_safe_teen_girl_1 in a dangerous situation where she can get hurt or be forced to do things \n- Many girls in our communities get pregnant or catch HIV from older men \n- There were no other trusted adults to advise @global.w_safe_teen_girl_1",
-        "text": "- The man in the car was pressuring  @global.w_safe_teen_girl_1 with gifts \n- @global.w_safe_teen_girl_1's friend was encouraging her  \n- Going with an older man puts @global.w_safe_teen_girl_1 in a dangerous situation where she can get hurt or be forced to do things \n- Many girls in our communities get pregnant or catch HIV from older men \n- There were no other trusted adults to advise @global.w_safe_teen_girl_1",
+        "SourceText": "* The man in the car was pressuring  @global.w_safe_teen_girl_1 with gifts \n* @global.w_safe_teen_girl_1's friend was encouraging her  \n* Going with an older man puts @global.w_safe_teen_girl_1 in a dangerous situation where she can get hurt or be forced to do things \n* Many girls in our communities get pregnant or catch HIV from older men \n* There were no other trusted adults to advise @global.w_safe_teen_girl_1",
+        "text": "* The man in the car was pressuring  @global.w_safe_teen_girl_1 with gifts \n* @global.w_safe_teen_girl_1's friend was encouraging her  \n* Going with an older man puts @global.w_safe_teen_girl_1 in a dangerous situation where she can get hurt or be forced to do things \n* Many girls in our communities get pregnant or catch HIV from older men \n* There were no other trusted adults to advise @global.w_safe_teen_girl_1",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_safe_teen_girl_1\n     @global.w_safe_teen_girl_1\n     @global.w_safe_teen_girl_1\n     @global.w_safe_teen_girl_1"
     },
@@ -5651,8 +5720,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Adults use social media, gaming and messaging apps and websites to meet teenagers and persuade them to do sexual things \n- People put things online to make us hurt other people – like making violence seem cool, or hating people from another race or country\n- People put things online to persuade teenagers to hurt themselves or commit suicide\n- Teenagers share sexy videos or photos or information about themselves, and people show it to others or use it to upset them\n- People can often be nasty to teenagers online – they feel like they can bully people safely",
-        "text": "- Adults use social media, gaming and messaging apps and websites to meet teenagers and persuade them to do sexual things \n- People put things online to make us hurt other people – like making violence seem cool, or hating people from another race or country\n- People put things online to persuade teenagers to hurt themselves or commit suicide\n- Teenagers share sexy videos or photos or information about themselves, and people show it to others or use it to upset them\n- People can often be nasty to teenagers online – they feel like they can bully people safely",
+        "SourceText": "* Adults use social media, gaming and messaging apps and websites to meet teenagers and persuade them to do sexual things \n* People put things online to make us hurt other people – like making violence seem cool, or hating people from another race or country\n* People put things online to persuade teenagers to hurt themselves or commit suicide\n* Teenagers share sexy videos or photos or information about themselves, and people show it to others or use it to upset them\n* People can often be nasty to teenagers online – they feel like they can bully people safely",
+        "text": "* Adults use social media, gaming and messaging apps and websites to meet teenagers and persuade them to do sexual things \n* People put things online to make us hurt other people – like making violence seem cool, or hating people from another race or country\n* People put things online to persuade teenagers to hurt themselves or commit suicide\n* Teenagers share sexy videos or photos or information about themselves, and people show it to others or use it to upset them\n* People can often be nasty to teenagers online – they feel like they can bully people safely",
         "type": "template"
     },
     {
@@ -5691,18 +5760,23 @@
         "type": "template"
     },
     {
-        "SourceText": "To keep our teens safe, we need to understand the dangerous situations they could get into!\n\nLet’s make two maps together of safe and unsafe places:\n- A map of our community\n- A map of apps/websites we use online\n\nLet’s make these maps as a group now. \n\nYou’ll do the same with your teen as home practice this week.",
-        "text": "To keep our teens safe, we need to understand the dangerous situations they could get into!\n\nLet’s make two maps together of safe and unsafe places:\n- A map of our community\n- A map of apps/websites we use online\n\nLet’s make these maps as a group now. \n\nYou’ll do the same with your teen as home practice this week.",
+        "SourceText": "To keep our teens safe, we need to understand the dangerous situations they could get into!\n\nLet’s make two maps together of safe and unsafe places:\n* A map of our community\n* A map of apps/websites we use online\n\nLet’s make these maps as a group now. \n\nYou’ll do the same with your teen as home practice this week.",
+        "text": "To keep our teens safe, we need to understand the dangerous situations they could get into!\n\nLet’s make two maps together of safe and unsafe places:\n* A map of our community\n* A map of apps/websites we use online\n\nLet’s make these maps as a group now. \n\nYou’ll do the same with your teen as home practice this week.",
         "type": "template"
     },
     {
-        "SourceText": "Discuss together:\n\n- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
-        "text": "Discuss together:\n\n- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
+        "SourceText": "Discuss together:\n\n* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
+        "text": "Discuss together:\n\n* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
         "type": "template"
     },
     {
-        "SourceText": "- Draw pictures of the apps and websites your teenagers use \n- Praise each other for how good they are at using the web!  \n- Talk about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
-        "text": "- Draw pictures of the apps and websites your teenagers use \n- Praise each other for how good they are at using the web!  \n- Talk about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "SourceText": "Sometimes, we can find ourselves in trouble. Discuss together:\n \n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "text": "Sometimes, we can find ourselves in trouble. Discuss together:\n \n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Draw pictures of the apps and websites your teenagers use \n* Praise each other for how good they are at using the web!  \n* Talk about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "text": "* Draw pictures of the apps and websites your teenagers use \n* Praise each other for how good they are at using the web!  \n* Talk about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
         "type": "template"
     },
     {
@@ -5722,8 +5796,8 @@
         "note": "The string @global.parent_point should not be translated."
     },
     {
-        "SourceText": "Let’s make two maps together of safe and unsafe places: \n- A map of our community \n- A map of apps/websites we use online \n\nYou’ll do the same with your teen as home practice this week - if your teen is here now, you can do it together now!",
-        "text": "Let’s make two maps together of safe and unsafe places: \n- A map of our community \n- A map of apps/websites we use online \n\nYou’ll do the same with your teen as home practice this week - if your teen is here now, you can do it together now!",
+        "SourceText": "Let’s make two maps together of safe and unsafe places: \n* A map of our community \n* A map of apps/websites we use online \n\nYou’ll do the same with your teen as home practice this week - if your teen is here now, you can do it together now!",
+        "text": "Let’s make two maps together of safe and unsafe places: \n* A map of our community \n* A map of apps/websites we use online \n\nYou’ll do the same with your teen as home practice this week - if your teen is here now, you can do it together now!",
         "type": "template"
     },
     {
@@ -5737,28 +5811,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Discuss together:\n- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
-        "text": "Discuss together:\n- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
-        "type": "template"
-    },
-    {
-        "SourceText": "Sometimes, we can find ourselves in trouble. Discuss together:\n \n- Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
-        "text": "Sometimes, we can find ourselves in trouble. Discuss together:\n \n- Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
-        "type": "template"
-    },
-    {
-        "SourceText": "- Draw pictures of the apps and websites your teenagers use \n- Praise your teens for how good they are at using the web!  \n- Talk about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
-        "text": "- Draw pictures of the apps and websites your teenagers use \n- Praise your teens for how good they are at using the web!  \n- Talk about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
-        "type": "template"
-    },
-    {
         "SourceText": "Step 1: What are important places in your community?",
         "text": "Step 1: What are important places in your community?",
         "type": "template"
     },
     {
-        "SourceText": "- Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n- Draw a map of your teen’s community, with pictures of all the main places like streets, your house, school, shops, places your teen visits.",
-        "text": "- Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n- Draw a map of your teen’s community, with pictures of all the main places like streets, your house, school, shops, places your teen visits.",
+        "SourceText": "* Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n* Draw a map of your teen’s community, with pictures of all the main places like streets, your house, school, shops, places your teen visits.",
+        "text": "* Get a piece of paper (or old newspaper or a cardboard box) and a pen. \n* Draw a map of your teen’s community, with pictures of all the main places like streets, your house, school, shops, places your teen visits.",
         "type": "template"
     },
     {
@@ -5767,8 +5826,13 @@
         "type": "template"
     },
     {
-        "SourceText": "- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
-        "text": "- Which areas on your map are safe for teenagers \n     – CIRCLE these \n- Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n- What makes a place safe or unsafe?  \n- What could you and your teen do to keep your teen safer?",
+        "SourceText": "Discuss together:\n* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
+        "text": "Discuss together:\n* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
+        "text": "* Which areas on your map are safe for teenagers \n     – CIRCLE these \n* Which areas on your map are unsafe for teenagers \n     – CROSS those off  \n* What makes a place safe or unsafe?  \n* What could you and your teen do to keep your teen safer?",
         "type": "template"
     },
     {
@@ -5777,8 +5841,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Sometimes, we can find ourselves in trouble.\n \n- Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
-        "text": "Sometimes, we can find ourselves in trouble.\n \n- Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "SourceText": "Sometimes, we can find ourselves in trouble. Discuss together:\n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "text": "Sometimes, we can find ourselves in trouble. Discuss together:\n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "type": "template"
+    },
+    {
+        "SourceText": "Sometimes, we can find ourselves in trouble.\n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
+        "text": "Sometimes, we can find ourselves in trouble.\n* Where can you and your teen get support when you face a crisis? \n     – MARK those areas with a little object like a stone or piece of paper.  \n\nBelow are some places that can be helpful",
         "type": "template"
     },
     {
@@ -5787,8 +5856,13 @@
         "type": "template"
     },
     {
-        "SourceText": "- Draw pictures of the apps and websites your teenagers use \n- Recognise how good they are at using the web!  \n- Think about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
-        "text": "- Draw pictures of the apps and websites your teenagers use \n- Recognise how good they are at using the web!  \n- Think about which ones might be unsafe. Why? \n- What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "SourceText": "* Draw pictures of the apps and websites your teenagers use \n* Praise your teens for how good they are at using the web!  \n* Talk about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "text": "* Draw pictures of the apps and websites your teenagers use \n* Praise your teens for how good they are at using the web!  \n* Talk about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Draw pictures of the apps and websites your teenagers use \n* Recognise how good they are at using the web!  \n* Think about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
+        "text": "* Draw pictures of the apps and websites your teenagers use \n* Recognise how good they are at using the web!  \n* Think about which ones might be unsafe. Why? \n* What could you and your teen do to make using the internet safer for your teen and their friends?",
         "type": "template"
     },
     {
@@ -5842,13 +5916,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Make two maps with your teen of safe and unsafe places:\n- Map of your community\n- Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
-        "text": "Make two maps with your teen of safe and unsafe places:\n- Map of your community\n- Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
+        "SourceText": "Make two maps with your teen of safe and unsafe places:\n* Map of your community\n* Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
+        "text": "Make two maps with your teen of safe and unsafe places:\n* Map of your community\n* Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
         "type": "template"
     },
     {
-        "SourceText": "If you have not done it together yet, make two maps with your teen of safe and unsafe places:\n- Map of your community\n- Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
-        "text": "If you have not done it together yet, make two maps with your teen of safe and unsafe places:\n- Map of your community\n- Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
+        "SourceText": "If you have not done it together yet, make two maps with your teen of safe and unsafe places:\n* Map of your community\n* Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
+        "text": "If you have not done it together yet, make two maps with your teen of safe and unsafe places:\n* Map of your community\n* Map of apps and websites your teen uses \n\nMake sure you're both happy with the safety plan.  \n\nWhat really matters is that you talk with your teen as you do this – often teens know much more than we do about where it is safe and unsafe!",
         "type": "template"
     },
     {
@@ -5857,8 +5931,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Welcome! It’s great to have you here. This week is about YOU. \n\nIn this welcome workshop you will: \n- Get tools to care for yourself \n- Customise the app for your needs",
-        "text": "Welcome! It’s great to have you here. This week is about YOU. \n\nIn this welcome workshop you will: \n- Get tools to care for yourself \n- Customise the app for your needs",
+        "SourceText": "Welcome! It’s great to have you here. This week is about YOU. \n\nIn this welcome workshop you will: \n* Get tools to care for yourself \n* Customise the app for your needs",
+        "text": "Welcome! It’s great to have you here. This week is about YOU. \n\nIn this welcome workshop you will: \n* Get tools to care for yourself \n* Customise the app for your needs",
         "type": "template"
     },
     {
@@ -5872,14 +5946,19 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_self_care_only?",
-        "text": "Why @global.w_self_care_only?",
+        "SourceText": "Why @data.workshop.w_self_care.short_title?",
+        "text": "Why @data.workshop.w_self_care.short_title?",
         "type": "template",
-        "note": "The string @global.w_self_care_only should not be translated."
+        "note": "The string @data.workshop.w_self_care.short_title should not be translated."
     },
     {
         "SourceText": "We often don’t look after ourselves enough. But this is so important, especially as a parent! \n\nReducing our stress and treating ourselves well helps us AND our teenagers.",
         "text": "We often don’t look after ourselves enough. But this is so important, especially as a parent! \n\nReducing our stress and treating ourselves well helps us AND our teenagers.",
+        "type": "template"
+    },
+    {
+        "SourceText": "Greetings, everyone. \n\nToday's topic is self-care. \n\nThere are times where we experience challenging times, where we face problems and do not know what to do. It is important to take care of ourselves to learn the techniques of how we can keep ourselves calm in case problems, challenges or issues come up. \n\nWhen we are calm we are in a good state to think positively and come up with positive solutions to any challenges we may be facing.",
+        "text": "Greetings, everyone. \n\nToday's topic is self-care. \n\nThere are times where we experience challenging times, where we face problems and do not know what to do. It is important to take care of ourselves to learn the techniques of how we can keep ourselves calm in case problems, challenges or issues come up. \n\nWhen we are calm we are in a good state to think positively and come up with positive solutions to any challenges we may be facing.",
         "type": "template"
     },
     {
@@ -5888,8 +5967,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Relax activity\n- Recognise activity\n- Reward activity\n- Tools: How to add self-care\n- Customise the app\n- Home practice suggestions",
-        "text": "- Relax activity\n- Recognise activity\n- Reward activity\n- Tools: How to add self-care\n- Customise the app\n- Home practice suggestions",
+        "SourceText": "* Relax activity\n* Recognise activity\n* Reward activity\n* Tools: How to add self-care\n* Customise the app\n* Home practice suggestions",
+        "text": "* Relax activity\n* Recognise activity\n* Reward activity\n* Tools: How to add self-care\n* Customise the app\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -5903,18 +5982,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Recognise",
-        "text": "Recognise",
-        "type": "template"
-    },
-    {
         "SourceText": "Paying attention to what we do well helps us to focus on the positive. \n\nLet’s take a moment to praise ourselves. We’ll show you how.",
         "text": "Paying attention to what we do well helps us to focus on the positive. \n\nLet’s take a moment to praise ourselves. We’ll show you how.",
-        "type": "template"
-    },
-    {
-        "SourceText": "Take a moment to praise yourself. \n\nWe will now show you how.",
-        "text": "Take a moment to praise yourself. \n\nWe will now show you how.",
         "type": "template"
     },
     {
@@ -5922,6 +5991,16 @@
         "text": "Think of one thing YOU have done well recently.\n\nSay it aloud to each other: \"Well done to me for…\"\n\nHere is one thing you deserve praise for: Well done for using @global.parent_app!",
         "type": "template",
         "note": "The string @global.parent_app should not be translated."
+    },
+    {
+        "SourceText": "Recognise",
+        "text": "Recognise",
+        "type": "template"
+    },
+    {
+        "SourceText": "Take a moment to praise yourself. \n\nWe will now show you how.",
+        "text": "Take a moment to praise yourself. \n\nWe will now show you how.",
+        "type": "template"
     },
     {
         "SourceText": "Think of one thing YOU have done well recently.",
@@ -5980,28 +6059,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Showing love to your children \n- Getting up even though you felt tired \n- Smiling at someone \n- Making food to stay strong \n- Spending time with your children \n- Helping your children with schoolwork",
-        "text": "- Showing love to your children \n- Getting up even though you felt tired \n- Smiling at someone \n- Making food to stay strong \n- Spending time with your children \n- Helping your children with schoolwork",
-        "type": "template"
-    },
-    {
-        "SourceText": "Reward",
-        "text": "Reward",
-        "type": "template"
-    },
-    {
-        "SourceText": "We all deserve to treat ourselves well!",
-        "text": "We all deserve to treat ourselves well!",
-        "type": "template"
-    },
-    {
-        "SourceText": "Taking care of ourselves is an important parenting skill. Share with each other:\n\nWhat small things make you happy?",
-        "text": "Taking care of ourselves is an important parenting skill. Share with each other:\n\nWhat small things make you happy?",
-        "type": "template"
-    },
-    {
-        "SourceText": "What small thing makes you happy?",
-        "text": "What small thing makes you happy?",
+        "SourceText": "* Showing love to your children \n* Getting up even though you felt tired \n* Smiling at someone \n* Making food to stay strong \n* Spending time with your children \n* Helping your children with schoolwork",
+        "text": "* Showing love to your children \n* Getting up even though you felt tired \n* Smiling at someone \n* Making food to stay strong \n* Spending time with your children \n* Helping your children with schoolwork",
         "type": "template"
     },
     {
@@ -6030,8 +6089,8 @@
         "type": "template"
     },
     {
-        "SourceText": "Nice! Taking care of yourself is an important parenting skill!",
-        "text": "Nice! Taking care of yourself is an important parenting skill!",
+        "SourceText": "Taking care of ourselves is an important parenting skill. Share with each other:\n\nWhat small things make you happy?",
+        "text": "Taking care of ourselves is an important parenting skill. Share with each other:\n\nWhat small things make you happy?",
         "type": "template"
     },
     {
@@ -6041,10 +6100,54 @@
         "note": "The string @global.parent_centre should not be translated."
     },
     {
-        "SourceText": "Try to do something to reward yourself every day. This could be to @field.w_self_care_reward_text or anything else that you enjoy.",
-        "text": "Try to do something to reward yourself every day. This could be to @field.w_self_care_reward_text or anything else that you enjoy.",
+        "SourceText": "Reward",
+        "text": "Reward",
+        "type": "template"
+    },
+    {
+        "SourceText": "We all deserve to treat ourselves well!",
+        "text": "We all deserve to treat ourselves well!",
+        "type": "template"
+    },
+    {
+        "SourceText": "What small thing makes you happy?",
+        "text": "What small thing makes you happy?",
+        "type": "template"
+    },
+    {
+        "SourceText": "Nice! Taking care of yourself is an important parenting skill!",
+        "text": "Nice! Taking care of yourself is an important parenting skill!",
+        "type": "template"
+    },
+    {
+        "SourceText": "Try to do something to reward yourself every day. This could be to @local.name_1 or anything else that you enjoy.",
+        "text": "Try to do something to reward yourself every day. This could be to @local.name_1 or anything else that you enjoy.",
         "type": "template",
-        "note": "The string @field.w_self_care_reward_text should not be translated."
+        "note": "The string @local.name_1 should not be translated."
+    },
+    {
+        "SourceText": "Try to do something to reward yourself every day. This could be to @local.name_2 or anything else that you enjoy.",
+        "text": "Try to do something to reward yourself every day. This could be to @local.name_2 or anything else that you enjoy.",
+        "type": "template",
+        "note": "The string @local.name_2 should not be translated."
+    },
+    {
+        "SourceText": "Try to do something to reward yourself every day. This could be to @local.name_3 or anything else that you enjoy.",
+        "text": "Try to do something to reward yourself every day. This could be to @local.name_3 or anything else that you enjoy.",
+        "type": "template",
+        "note": "The string @local.name_3 should not be translated."
+    },
+    {
+        "SourceText": "Try to do something to reward yourself every day. This could be to @local.name_4 or anything else that you enjoy.",
+        "text": "Try to do something to reward yourself every day. This could be to @local.name_4 or anything else that you enjoy.",
+        "type": "template",
+        "note": "The string @local.name_4 should not be translated."
+    },
+    {
+        "SourceText": "Try to do something to reward yourself every day. This could be to @local.name_5 or anything else that you enjoy.",
+        "text": "Try to do something to reward yourself every day. This could be to @local.name_5 or anything else that you enjoy.",
+        "type": "template",
+        "note": "The string @local.name_5 should not be translated."
     },
     {
         "SourceText": "Things you can do to reward yourself:",
@@ -6052,8 +6155,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- Have a hot drink \n- Call a friend or relative \n- Have a relaxing bath \n- Read \n- Watch TV",
-        "text": "- Have a hot drink \n- Call a friend or relative \n- Have a relaxing bath \n- Read \n- Watch TV",
+        "SourceText": "* Have a hot drink \n* Call a friend or relative \n* Have a relaxing bath \n* Read \n* Watch TV",
+        "text": "* Have a hot drink \n* Call a friend or relative \n* Have a relaxing bath \n* Read \n* Watch TV",
         "type": "template"
     },
     {
@@ -6171,24 +6274,23 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_solve?",
-        "text": "Why @global.w_solve?",
-        "type": "template",
-        "note": "The string @global.w_solve should not be translated."
-    },
-    {
         "SourceText": "Every family faces challenges, but when we work together we can deal with problems in an effective and peaceful way. \n\nWhat a great skill for your teen to learn too!",
         "text": "Every family faces challenges, but when we work together we can deal with problems in an effective and peaceful way. \n\nWhat a great skill for your teen to learn too!",
         "type": "template"
     },
     {
-        "SourceText": "- Story & discussion – that didn’t work…\n- Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n- Story & discussion – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & discussion – that didn’t work…\n- Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n- Story & discussion – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "Greetings, everyone. \n\nToday's topic is problem solving. \n\nWe all know that in life there are times where we face problems, and we all know in a way that when we find ourselves in these situations, it is difficult to think of immediate positive solutions. \n\nTherefore, it is important that when we are facing problems we take a pause, we breathe, keep calm and think of problem-solving skills that we may use. \n\nRemember to include our teenagers when we are solving problems. This will help them to become responsible and learn how to solve their own problems in the future.",
+        "text": "Greetings, everyone. \n\nToday's topic is problem solving. \n\nWe all know that in life there are times where we face problems, and we all know in a way that when we find ourselves in these situations, it is difficult to think of immediate positive solutions. \n\nTherefore, it is important that when we are facing problems we take a pause, we breathe, keep calm and think of problem-solving skills that we may use. \n\nRemember to include our teenagers when we are solving problems. This will help them to become responsible and learn how to solve their own problems in the future.",
         "type": "template"
     },
     {
-        "SourceText": "- Story & reflection – that didn’t work…\n- Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n- Story & reflection – that worked!\n- Try it out!\n- Home practice suggestions",
-        "text": "- Story & reflection – that didn’t work…\n- Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n- Story & reflection – that worked!\n- Try it out!\n- Home practice suggestions",
+        "SourceText": "* Story & discussion – that didn’t work…\n* Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n* Story & discussion – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & discussion – that didn’t work…\n* Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n* Story & discussion – that worked!\n* Try it out!\n* Home practice suggestions",
+        "type": "template"
+    },
+    {
+        "SourceText": "* Story & reflection – that didn’t work…\n* Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n* Story & reflection – that worked!\n* Try it out!\n* Home practice suggestions",
+        "text": "* Story & reflection – that didn’t work…\n* Tools: How to solve problems\nKNOW IT – SOLVE IT – TRY IT – TEST IT\n* Story & reflection – that worked!\n* Try it out!\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -6468,8 +6570,8 @@
         "type": "template"
     },
     {
-        "SourceText": "- My teenager does not want to go to school\n- I am worried my teenager will get pregnant or will get someone pregnant\n- I am worried about what my teen does online\n- My teenager is hanging out with bad friends\n- My teenager is lazy\n- My teenager is not doing their school work\n- My teenager might be using drugs",
-        "text": "- My teenager does not want to go to school\n- I am worried my teenager will get pregnant or will get someone pregnant\n- I am worried about what my teen does online\n- My teenager is hanging out with bad friends\n- My teenager is lazy\n- My teenager is not doing their school work\n- My teenager might be using drugs",
+        "SourceText": "* My teenager does not want to go to school\n* I am worried my teenager will get pregnant or will get someone pregnant\n* I am worried about what my teen does online\n* My teenager is hanging out with bad friends\n* My teenager is lazy\n* My teenager is not doing their school work\n* My teenager might be using drugs",
+        "text": "* My teenager does not want to go to school\n* I am worried my teenager will get pregnant or will get someone pregnant\n* I am worried about what my teen does online\n* My teenager is hanging out with bad friends\n* My teenager is lazy\n* My teenager is not doing their school work\n* My teenager might be using drugs",
         "type": "template"
     },
     {
@@ -6499,14 +6601,13 @@
         "type": "template"
     },
     {
-        "SourceText": "Why @global.w_stress?",
-        "text": "Why @global.w_stress?",
-        "type": "template",
-        "note": "The string @global.w_stress should not be translated."
-    },
-    {
         "SourceText": "We know how stressful it is to bring up teenagers in these times. Learning to manage your stress helps you - and your family.",
         "text": "We know how stressful it is to bring up teenagers in these times. Learning to manage your stress helps you - and your family.",
+        "type": "template"
+    },
+    {
+        "SourceText": "Greetings everyone. \n\nToday's topic is managing stress. \n\nIt is important to know how to manage our stress. At times our children can behave in ways that makes us feel stressed and us as parents can make our children feel stressed too. \n\nSo, it is important to notice when we feel stressed and take a pause and breathe. That will help you manage your stress.",
+        "text": "Greetings everyone. \n\nToday's topic is managing stress. \n\nIt is important to know how to manage our stress. At times our children can behave in ways that makes us feel stressed and us as parents can make our children feel stressed too. \n\nSo, it is important to notice when we feel stressed and take a pause and breathe. That will help you manage your stress.",
         "type": "template"
     },
     {
@@ -6515,13 +6616,13 @@
         "type": "template"
     },
     {
-        "SourceText": "- Story & discussion – that didn’t work…\n- Story & discussion – that worked!\n- Safety Amnesty story & discussion – that worked!\n- Tools: How to manage stress\nBREATHE - SHARE - SHOW\n- Home practice suggestions",
-        "text": "- Story & discussion – that didn’t work…\n- Story & discussion – that worked!\n- Safety Amnesty story & discussion – that worked!\n- Tools: How to manage stress\nBREATHE - SHARE - SHOW\n- Home practice suggestions",
+        "SourceText": "* Story & discussion – that didn’t work…\n* Story & discussion – that worked!\n* Safety Amnesty story & discussion – that worked!\n* Tools: How to manage stress\nBREATHE - SHARE - SHOW\n* Home practice suggestions",
+        "text": "* Story & discussion – that didn’t work…\n* Story & discussion – that worked!\n* Safety Amnesty story & discussion – that worked!\n* Tools: How to manage stress\nBREATHE - SHARE - SHOW\n* Home practice suggestions",
         "type": "template"
     },
     {
-        "SourceText": "- Story & reflection – that didn’t work…\n- Story & reflection – that worked!\n- Safety Amnesty story & reflection – that worked!\n- Tools: How to manage stress\nBREATHE - SHARE - SHOW\n- Home practice suggestions",
-        "text": "- Story & reflection – that didn’t work…\n- Story & reflection – that worked!\n- Safety Amnesty story & reflection – that worked!\n- Tools: How to manage stress\nBREATHE - SHARE - SHOW\n- Home practice suggestions",
+        "SourceText": "* Story & reflection – that didn’t work…\n* Story & reflection – that worked!\n* Safety Amnesty story & reflection – that worked!\n* Tools: How to manage stress\nBREATHE - SHARE - SHOW\n* Home practice suggestions",
+        "text": "* Story & reflection – that didn’t work…\n* Story & reflection – that worked!\n* Safety Amnesty story & reflection – that worked!\n* Tools: How to manage stress\nBREATHE - SHARE - SHOW\n* Home practice suggestions",
         "type": "template"
     },
     {
@@ -6650,8 +6751,8 @@
         "note": "The string @global.w_stress_male_caregiver should not be translated."
     },
     {
-        "SourceText": "- Recognise why he feels stressed \n- Take a deep breath and speak calmly  \n- Show he understands his teen’s feelings \n- Think about solutions together with @global.w_stress_teen_boy_1\n- Do something positive together with @global.w_stress_teen_boy_1",
-        "text": "- Recognise why he feels stressed \n- Take a deep breath and speak calmly  \n- Show he understands his teen’s feelings \n- Think about solutions together with @global.w_stress_teen_boy_1\n- Do something positive together with @global.w_stress_teen_boy_1",
+        "SourceText": "* Recognise why he feels stressed \n* Take a deep breath and speak calmly  \n* Show he understands his teen’s feelings \n* Think about solutions together with @global.w_stress_teen_boy_1\n* Do something positive together with @global.w_stress_teen_boy_1",
+        "text": "* Recognise why he feels stressed \n* Take a deep breath and speak calmly  \n* Show he understands his teen’s feelings \n* Think about solutions together with @global.w_stress_teen_boy_1\n* Do something positive together with @global.w_stress_teen_boy_1",
         "type": "template",
         "note": "The following strings should not be translated: \n     @global.w_stress_teen_boy_1\n     @global.w_stress_teen_boy_1"
     },
@@ -6815,8 +6916,8 @@
         "note": "The string @global.parent_points should not be translated."
     },
     {
-        "SourceText": "You've completed this week's workshop.\n\nNext week, we will talk about money - you will need:\n- a sheet of paper/cardboard\n- a pen\n- 20 small rocks/beans/kernels\n\nIt will be fun!",
-        "text": "You've completed this week's workshop.\n\nNext week, we will talk about money - you will need:\n- a sheet of paper/cardboard\n- a pen\n- 20 small rocks/beans/kernels\n\nIt will be fun!",
+        "SourceText": "You've completed this week's workshop.\n\nNext week, we will talk about money - you will need:\n* a sheet of paper/cardboard\n* a pen\n* 20 small rocks/beans/kernels\n\nIt will be fun!",
+        "text": "You've completed this week's workshop.\n\nNext week, we will talk about money - you will need:\n* a sheet of paper/cardboard\n* a pen\n* 20 small rocks/beans/kernels\n\nIt will be fun!",
         "type": "template"
     },
     {
@@ -6870,6 +6971,21 @@
     {
         "SourceText": "Home practice reminder",
         "text": "Home practice reminder",
+        "type": "global"
+    },
+    {
+        "SourceText": "To solve this challenge, I will try to:",
+        "text": "To solve this challenge, I will try to:",
+        "type": "global"
+    },
+    {
+        "SourceText": "Do you want to try one of the following things?",
+        "text": "Do you want to try one of the following things?",
+        "type": "global"
+    },
+    {
+        "SourceText": "My challenge is not listed here.",
+        "text": "My challenge is not listed here.",
         "type": "global"
     },
     {
@@ -7299,6 +7415,11 @@
         "type": "global"
     },
     {
+        "SourceText": "Type your own",
+        "text": "Type your own",
+        "type": "global"
+    },
+    {
         "SourceText": "Welcome and Self-Care",
         "text": "Welcome and Self-Care",
         "type": "global"
@@ -7450,13 +7571,13 @@
         "type": "global"
     },
     {
-        "SourceText": "friends",
-        "text": "friends",
+        "SourceText": "awesome parent",
+        "text": "awesome parent",
         "type": "global"
     },
     {
-        "SourceText": "awesome parent",
-        "text": "awesome parent",
+        "SourceText": "friends",
+        "text": "friends",
         "type": "global"
     },
     {
@@ -7863,6 +7984,52 @@
         "text": "\"Safe\" @global.parent_point",
         "type": "data_list",
         "note": "The string @global.parent_point should not be translated."
+    },
+    {
+        "SourceText": "Help",
+        "text": "Help",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "My Tips",
+        "text": "My Tips",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "Essential Tools",
+        "text": "Essential Tools",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "COVID",
+        "text": "COVID",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "Relax & Activities",
+        "text": "Relax & Activities",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "Customise @global.parent_app",
+        "text": "Customise @global.parent_app",
+        "type": "data_list",
+        "note": "The string @global.parent_app should not be translated."
+    },
+    {
+        "SourceText": "Support Contacts",
+        "text": "Support Contacts",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "Evidence Base",
+        "text": "Evidence Base",
+        "type": "data_list"
+    },
+    {
+        "SourceText": "Technical Support",
+        "text": "Technical Support",
+        "type": "data_list"
     },
     {
         "SourceText": "That’s wonderful! Well done for spending time together. It lays the foundation for a great relationship with your teen!",
