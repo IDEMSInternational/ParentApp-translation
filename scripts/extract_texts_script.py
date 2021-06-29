@@ -216,8 +216,7 @@ print('Number of words for translation in data_list.json: ', sum(len(str(i).spli
 print('----------------------------------------------------------')
 # Result from all files
 result_all = result_temp + result_glob + result_tour + result_data_list
-print(len(result_all))
-print('---------------------------------------')
+#print(len(result_all))
 result_all = [i for n, i in enumerate(result_all) if i not in result_all[n + 1:]]
 #print(len(result_all))
 
