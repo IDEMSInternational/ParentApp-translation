@@ -13,7 +13,7 @@ json_decode_data_list = json.load(
     open(path + "//Inputs//input_data_list.json", encoding='utf-8'))
 
 ignore_end = ('.json', '.png', '.svg', '.mp3', '.mp4')
-ignore_start = ('https', '@', 'plh_')
+ignore_start = ('https', '@', 'plh_', '!@', '+@', '!!@')
 result = []
 excluded_types = ('nested_properties', 'template', 'image', 'audio', 'video', 'animated_section',
                   'display_group', 'lottie_animation')
