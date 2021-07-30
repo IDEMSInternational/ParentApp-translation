@@ -62,7 +62,7 @@
         "note": "The string @local.combo_box should not be translated."
     },
     {
-        "SourceText": "The field set through the radio group is @local.combo_box_field_name and its value is @fields.@local.combo_box_field_name.",
+        "SourceText": "The field set through the combo box is @local.combo_box_field_name and its value is @fields.@local.combo_box_field_name.",
         "text": "The field set through the radio group is @local.combo_box_field_name and its value is @fields.@local.combo_box_field_name.",
         "type": "template",
         "note": "The following strings should not be translated: \n     @local.combo_box_field_name\n     @local.combo_box_field_name"
@@ -165,8 +165,8 @@
         "type": "tour"
     },
     {
-        "SourceText": "<p>This is an example of a component that is excluded from translation. The button textx should still be Pop-up 1.</p>",
-        "text": "<p>This is an example of a component that is excluded from translation. The button textx should still be Pop-up 1.</p>",
+        "SourceText": "<p>This is an example of a component that is excluded from translation. The button text should still be Pop-up 1.</p>",
+        "text": "<p>This is an example of a component that is excluded from translation. The button text should still be Pop-up 1.</p>",
         "type": "tour"
     },
     {
